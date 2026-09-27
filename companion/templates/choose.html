@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block page %}choose{% endblock %}
+{% block body %}
+{% include "_topbar.html" %}
+<h1 class="h-title">{{ T.choose_title }}</h1>
+
+<nav class="stack" aria-label="{{ T.saved_places }}">
+  {% for d in dests %}
+  <a class="btn {{ 'btn-home' if d.is_home else 'btn-plain' }} btn-left" href="{{ url_for('companion.route', dest_id=d.id) }}">
+    <svg class="ic" aria-hidden="true"><use href="#i-{{ d.icon }}"/></svg>
+    <span>{{ T.home_dest if d.is_home else (d.name[lang] or d.name.en) }}</span>
+  </a>
+  {% endfor %}
+</nav>
+
+<section class="stack" id="recent" aria-labelledby="recent-title" hidden>
+  <h2 class="h-sub" id="recent-title">{{ T.recent_places }}</h2>
+  <div class="stack" id="recent-list"></div>
+</section>
+
+<section class="card stack" aria-labelledby="search-title">
+  <h2 class="h-sub" id="search-title">{{ T.search_title }}</h2>
+  <form class="stack" id="place-form" role="search">
+    <label class="field-label" for="place-q">{{ T.search_label }}</label>
+    <input class="field field-big" id="place-q" type="search" autocomplete="off" enterkeyhint="search"
+           placeholder="{{ T.search_hint }}">
+    <div class="grid-2">
+      <button type="button" class="btn btn-plain btn-find" id="btn-paste">
+        <svg class="ic" aria-hidden="true"><use href="#i-card"/></svg><span>{{ T.paste }}</span>
+      </button>
+      <button type="submit" class="btn btn-primary btn-find">
+        <svg class="ic" aria-hidden="true"><use href="#i-map"/></svg><span>{{ T.find }}</span>
+      </button>
+    </div>
+  </form>
+  <p class="note" id="place-status" role="status" hidden></p>
+  <div class="stack" id="place-results"></div>
+  <p class="credits">Addresses: Comune di Perugia open data (CC BY 4.0) · Places: © OpenStreetMap contributors</p>
+</section>
+{% endblock %}

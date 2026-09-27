@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block page %}welcome{% endblock %}
+{% block body %}
+<header class="hero">
+  <svg class="ic ic-xl hero-icon" aria-hidden="true"><use href="#i-globe"/></svg>
+  <h1 class="h-big">{{ S.en.welcome_q }}</h1>
+  <p class="h-big" lang="zh-Hans">{{ S.zh.welcome_q }}</p>
+</header>
+<div class="stack">
+  <form method="post" action="{{ url_for('companion.set_lang', code='en') }}">
+    <button class="btn btn-primary" type="submit" lang="en"><span class="lang-tag" aria-hidden="true">EN</span><span>English</span></button>
+  </form>
+  <form method="post" action="{{ url_for('companion.set_lang', code='zh') }}">
+    <button class="btn btn-primary" type="submit" lang="zh-Hans"><span class="lang-tag" aria-hidden="true">中</span><span>中文</span></button>
+  </form>
+</div>
+{% endblock %}

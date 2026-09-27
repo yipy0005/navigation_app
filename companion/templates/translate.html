@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block page %}translate{% endblock %}
+{% block body %}
+{% include "_topbar.html" %}
+<h1 class="h-title">{{ T.i_want_to_say }}</h1>
+
+<button type="button" class="btn btn-primary" id="btn-mic">
+  <svg class="ic" aria-hidden="true"><use href="#i-mic"/></svg><span id="mic-label">{{ T.speak }}</span>
+</button>
+<p class="note" id="mic-note" role="status" hidden></p>
+
+<form class="stack translate-form" id="translate-form">
+  <label class="field-label" for="say-text">{{ T.type_here }}</label>
+  <textarea id="say-text" class="field field-big" rows="2" maxlength="400" autocomplete="off"></textarea>
+  <button class="btn btn-plain" type="submit">
+    <svg class="ic" aria-hidden="true"><use href="#i-chat"/></svg><span>{{ T.translate_btn }}</span>
+  </button>
+</form>
+
+<section class="result card" id="result" aria-live="polite" hidden>
+  <svg class="ic ic-lg result-arrow" aria-hidden="true"><use href="#i-down"/></svg>
+  <p class="result-src" id="result-src"></p>
+  <p class="result-it" id="result-it" lang="it"></p>
+  <div class="stack">
+    <button type="button" class="btn btn-home" id="btn-play">
+      <svg class="ic" aria-hidden="true"><use href="#i-volume"/></svg><span>{{ T.play_italian }}</span>
+    </button>
+    <button type="button" class="btn btn-plain" id="btn-large">
+      <svg class="ic" aria-hidden="true"><use href="#i-expand"/></svg><span>{{ T.show_large }}</span>
+    </button>
+  </div>
+</section>
+
+<h2 class="h-sub">{{ T.ready_phrases }}</h2>
+<ul class="phrases" role="list">
+  {% for p in phrases %}
+  <li><button type="button" class="phrase" data-it="{{ p.it }}" data-src="{{ p[lang] }}">{{ p[lang] }}</button></li>
+  {% endfor %}
+</ul>
+{% endblock %}

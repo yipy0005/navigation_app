@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% block page %}navigate{% endblock %}
+{% block body_class %}has-lost-bar{% endblock %}
+{% block head %}<link rel="stylesheet" href="{{ url_for('static', filename='vendor/leaflet/leaflet.css') }}">
+<script src="{{ url_for('static', filename='vendor/leaflet/leaflet.js') }}" defer></script>
+<script src="{{ url_for('static', filename='js/livemap.js') }}" defer></script>{% endblock %}
+{% block body %}
+{% with show_voice=true %}{% include "_topbar.html" %}{% endwith %}
+<section id="nav-root" class="nav" data-dest="{{ dest.id }}" data-mode="{{ mode }}" data-qs="{{ dest.qs|default('') }}" aria-live="polite">
+  <p class="lead" id="nav-status">{{ T.loading_route }}</p>
+  <button type="button" class="btn btn-primary" id="btn-retry" hidden>
+    <svg class="ic" aria-hidden="true"><use href="#i-repeat"/></svg><span>{{ T.try_again }}</span>
+  </button>
+  <p class="note" id="nav-note" role="status" hidden></p>
+  <p class="nav-dest">{{ T.going_to|replace('{place}', T.home_dest if dest.is_home else (dest.name[lang] or dest.name.en)) }}</p>
+  <div id="nav-step" hidden>
+    <div class="step-row">
+      <p class="step-count" id="step-count"></p>
+      <button type="button" class="chip" id="map-toggle" aria-pressed="true" aria-controls="map-wrap">
+        <svg class="ic" aria-hidden="true"><use href="#i-map"/></svg><span>{{ T.map_on }}</span>
+      </button>
+    </div>
+    <div class="instr-head">
+      <svg class="ic instr-arrow" id="instr-arrow" aria-hidden="true"><use href="#i-straight"/></svg>
+      <div class="instr-head-text">
+        <h1 class="instr-title" id="instr-title"></h1>
+        <p class="instr-dist" id="instr-dist"></p>
+      </div>
+    </div>
+
+    <div class="map-wrap" id="map-wrap">
+      <div class="nav-map" id="nav-map" role="img" aria-label="{{ T.map_label }}"></div>
+      <button type="button" class="map-recentre" id="btn-recentre" hidden>
+        <svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg><span>{{ T.centre_me }}</span>
+      </button>
+      <p class="map-gps" id="map-gps" hidden></p>
+    </div>
+    <p class="face-hint" id="face-hint" role="status" hidden><svg class="ic face-arrow" aria-hidden="true"><use href="#i-straight"/></svg><span></span></p>
+    <p class="instr-text" id="instr-text"></p>
+    <button type="button" class="btn btn-plain" id="btn-compass" hidden>
+      <svg class="ic" aria-hidden="true"><use href="#i-compass"/></svg><span>{{ T.compass_btn }}</span>
+    </button>
+    {% if cfg.pretend_location %}
+    <button type="button" class="btn btn-plain" id="btn-simulate">
+      <svg class="ic" aria-hidden="true"><use href="#i-straight"/></svg><span>{{ T.simulate }}</span>
+    </button>
+    {% endif %}
+
+    <div class="progress" aria-hidden="true"><div class="progress-fill" id="progress-fill"></div></div>
+    <p class="progress-label" id="progress-label"></p>
+
+    <p class="next-up" id="next-up"></p>
+
+    <div class="grid-2">
+      <button type="button" class="btn btn-plain btn-tile" id="btn-repeat">
+        <svg class="ic" aria-hidden="true"><use href="#i-repeat"/></svg><span>{{ T.repeat }}</span>
+      </button>
+      <button type="button" class="btn btn-primary btn-tile" id="btn-next">
+        <svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span id="btn-next-label">{{ T.next }}</span>
+      </button>
+    </div>
+    <button type="button" class="btn btn-plain" id="btn-metro-closed" hidden>
+      <svg class="ic" aria-hidden="true"><use href="#i-metro"/></svg><span>{{ T.metro_closed_btn }}</span>
+    </button>
+  </div>
+</section>
+
+<div class="lost-bar">
+  <a class="btn btn-lost" href="{{ url_for('companion.lost') }}" id="btn-lost">
+    <svg class="ic" aria-hidden="true"><use href="#i-help"/></svg><span>{{ T.im_lost }}</span>
+  </a>
+</div>
+{% endblock %}

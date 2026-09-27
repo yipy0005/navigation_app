@@ -1,0 +1,3386 @@
+[
+{
+"name": "Bar Boccaccio",
+"kind": "cafe",
+"lat": 43.095011,
+"lng": 12.389827
+},
+{
+"name": "Chiesa di San Ferdinando",
+"kind": "place_of_worship",
+"lat": 43.095091,
+"lng": 12.388473
+},
+{
+"name": "Piselli",
+"kind": "pastry",
+"lat": 43.095235,
+"lng": 12.362532
+},
+{
+"name": "Ristorante Hotel Grifone",
+"kind": "restaurant",
+"lat": 43.095563,
+"lng": 12.392638
+},
+{
+"name": "Conad",
+"kind": "supermarket",
+"lat": 43.095589,
+"lng": 12.391005
+},
+{
+"name": "NaturaSì",
+"kind": "supermarket",
+"lat": 43.095638,
+"lng": 12.395107
+},
+{
+"name": "Bad King pizz.",
+"kind": "restaurant",
+"lat": 43.095648,
+"lng": 12.384977
+},
+{
+"name": "Hotel Grifone",
+"kind": "hotel",
+"lat": 43.095669,
+"lng": 12.392656
+},
+{
+"name": "Pizzeria Pietrino",
+"kind": "restaurant",
+"lat": 43.09568,
+"lng": 12.390679
+},
+{
+"name": "Aprile",
+"kind": "cafe",
+"lat": 43.095969,
+"lng": 12.391969
+},
+{
+"name": "Hotel Plaza",
+"kind": "hotel",
+"lat": 43.096003,
+"lng": 12.385873
+},
+{
+"name": "Gatto Nero",
+"kind": "restaurant",
+"lat": 43.096039,
+"lng": 12.390175
+},
+{
+"name": "Revò",
+"kind": "cafe",
+"lat": 43.096199,
+"lng": 12.370383
+},
+{
+"name": "Impasto",
+"kind": "restaurant",
+"lat": 43.096255,
+"lng": 12.355541
+},
+{
+"name": "Bar Quintana",
+"kind": "bar",
+"lat": 43.096383,
+"lng": 12.3821
+},
+{
+"name": "San Faustino",
+"kind": "place_of_worship",
+"lat": 43.096407,
+"lng": 12.367552
+},
+{
+"name": "Dolcerie2",
+"kind": "bar",
+"lat": 43.096426,
+"lng": 12.386079
+},
+{
+"name": "Intesa Sanpaolo",
+"kind": "bank",
+"lat": 43.096548,
+"lng": 12.386297
+},
+{
+"name": "Old Wild West",
+"kind": "restaurant",
+"lat": 43.096646,
+"lng": 12.35544
+},
+{
+"name": "Non solo caffé",
+"kind": "cafe",
+"lat": 43.096664,
+"lng": 12.388895
+},
+{
+"name": "Bar Grifetto",
+"kind": "cafe",
+"lat": 43.09686,
+"lng": 12.363516
+},
+{
+"name": "Todis",
+"kind": "supermarket",
+"lat": 43.097212,
+"lng": 12.388897
+},
+{
+"name": "Bar Tre Stelle",
+"kind": "bar",
+"lat": 43.097229,
+"lng": 12.387094
+},
+{
+"name": "Conad",
+"kind": "supermarket",
+"lat": 43.097277,
+"lng": 12.37058
+},
+{
+"name": "Tripaldi",
+"kind": "cafe",
+"lat": 43.097624,
+"lng": 12.387917
+},
+{
+"name": "Bar Circolo ARCI Madonna Alta",
+"kind": "cafe",
+"lat": 43.097641,
+"lng": 12.365997
+},
+{
+"name": "Parafarmacia FarmaSì",
+"kind": "pharmacy",
+"lat": 43.097698,
+"lng": 12.387904
+},
+{
+"name": "L'Angolo del Caffé",
+"kind": "cafe",
+"lat": 43.097836,
+"lng": 12.364002
+},
+{
+"name": "San Raffaele Arcangelo",
+"kind": "place_of_worship",
+"lat": 43.097877,
+"lng": 12.364983
+},
+{
+"name": "Emi",
+"kind": "supermarket",
+"lat": 43.098095,
+"lng": 12.387253
+},
+{
+"name": "Lapost Service",
+"kind": "post_office",
+"lat": 43.098096,
+"lng": 12.385971
+},
+{
+"name": "Bar Filosofi",
+"kind": "cafe",
+"lat": 43.098098,
+"lng": 12.39167
+},
+{
+"name": "Farmacia Comunale Afas 1",
+"kind": "pharmacy",
+"lat": 43.098101,
+"lng": 12.387758
+},
+{
+"name": "Ufficio postale Perugia 4",
+"kind": "post_office",
+"lat": 43.098314,
+"lng": 12.391702
+},
+{
+"name": "UniCredit banca",
+"kind": "bank",
+"lat": 43.098341,
+"lng": 12.365969
+},
+{
+"name": "Pallante Dott.ssa Anna",
+"kind": "pharmacy",
+"lat": 43.098371,
+"lng": 12.391103
+},
+{
+"name": "La Spigolatrice",
+"kind": "restaurant",
+"lat": 43.098404,
+"lng": 12.387039
+},
+{
+"name": "San Costanzo",
+"kind": "place_of_worship",
+"lat": 43.098603,
+"lng": 12.39664
+},
+{
+"name": "Cibus rist. piz.",
+"kind": "restaurant",
+"lat": 43.09879,
+"lng": 12.361106
+},
+{
+"name": "Biblioteca di medicina veterinaria",
+"kind": "library",
+"lat": 43.098998,
+"lng": 12.397192
+},
+{
+"name": "BuoneNuove rist.",
+"kind": "restaurant",
+"lat": 43.099252,
+"lng": 12.384783
+},
+{
+"name": "Choco Hotel",
+"kind": "hotel",
+"lat": 43.099318,
+"lng": 12.384693
+},
+{
+"name": "Parafarmacia Tommasone Dott.ssa Tiziana",
+"kind": "pharmacy",
+"lat": 43.099464,
+"lng": 12.387069
+},
+{
+"name": "Gatti",
+"kind": "bakery",
+"lat": 43.099473,
+"lng": 12.386956
+},
+{
+"name": "Lidl",
+"kind": "supermarket",
+"lat": 43.099578,
+"lng": 12.380276
+},
+{
+"name": "Pizzeria Gi-Bi",
+"kind": "restaurant",
+"lat": 43.09961,
+"lng": 12.384956
+},
+{
+"name": "Credit Reunion",
+"kind": "bank",
+"lat": 43.099675,
+"lng": 12.382395
+},
+{
+"name": "Ufficio postale Perugia 8",
+"kind": "post_office",
+"lat": 43.099692,
+"lng": 12.38542
+},
+{
+"name": "Pizzeria You",
+"kind": "restaurant",
+"lat": 43.09973,
+"lng": 12.36967
+},
+{
+"name": "Bar",
+"kind": "cafe",
+"lat": 43.099791,
+"lng": 12.364355
+},
+{
+"name": "Porta San Costanzo",
+"kind": "city_gate",
+"lat": 43.099965,
+"lng": 12.395736
+},
+{
+"name": "Chiesa di S. Maria di Colle",
+"kind": "place_of_worship",
+"lat": 43.100008,
+"lng": 12.390044
+},
+{
+"name": "Farmacia Comunale 5",
+"kind": "pharmacy",
+"lat": 43.100105,
+"lng": 12.366762
+},
+{
+"name": "Bimbobar",
+"kind": "cafe",
+"lat": 43.100113,
+"lng": 12.389581
+},
+{
+"name": "Perugia 10",
+"kind": "post_office",
+"lat": 43.100186,
+"lng": 12.364498
+},
+{
+"name": "sud osteria",
+"kind": "restaurant",
+"lat": 43.100307,
+"lng": 12.385315
+},
+{
+"name": "PopUP",
+"kind": "books",
+"lat": 43.100371,
+"lng": 12.38503
+},
+{
+"name": "Edicola",
+"kind": "newsagent",
+"lat": 43.100424,
+"lng": 12.374936
+},
+{
+"name": "Santa Maria delle Grazie",
+"kind": "place_of_worship",
+"lat": 43.100425,
+"lng": 12.376766
+},
+{
+"name": "Bcc",
+"kind": "bank",
+"lat": 43.100498,
+"lng": 12.374556
+},
+{
+"name": "Edicola - Tux Caffé",
+"kind": "newsagent",
+"lat": 43.100742,
+"lng": 12.367427
+},
+{
+"name": "Tux Caffé",
+"kind": "cafe",
+"lat": 43.100778,
+"lng": 12.367489
+},
+{
+"name": "Oasi",
+"kind": "supermarket",
+"lat": 43.100848,
+"lng": 12.359268
+},
+{
+"name": "Il meglio",
+"kind": "convenience",
+"lat": 43.10099,
+"lng": 12.391853
+},
+{
+"name": "Ami Sara",
+"kind": "cafe",
+"lat": 43.101057,
+"lng": 12.37737
+},
+{
+"name": "Bar mokambo",
+"kind": "cafe",
+"lat": 43.101106,
+"lng": 12.391652
+},
+{
+"name": "Biblioteca di Agraria Mario Marte",
+"kind": "library",
+"lat": 43.101124,
+"lng": 12.396001
+},
+{
+"name": "Romania Oltenia",
+"kind": "convenience",
+"lat": 43.101153,
+"lng": 12.377206
+},
+{
+"name": "Intesa Sanpaolo",
+"kind": "bank",
+"lat": 43.101228,
+"lng": 12.373363
+},
+{
+"name": "Superconti",
+"kind": "supermarket",
+"lat": 43.10135,
+"lng": 12.374852
+},
+{
+"name": "Gran VariEtà",
+"kind": "restaurant",
+"lat": 43.101464,
+"lng": 12.377622
+},
+{
+"name": "Libreria Filosofi",
+"kind": "books",
+"lat": 43.10147,
+"lng": 12.391707
+},
+{
+"name": "Biblioteca ITET \"Aldo Capitini\"",
+"kind": "library",
+"lat": 43.101491,
+"lng": 12.359399
+},
+{
+"name": "Centro Baha'i",
+"kind": "place_of_worship",
+"lat": 43.101505,
+"lng": 12.377934
+},
+{
+"name": "Caffè Vulcano",
+"kind": "cafe",
+"lat": 43.10152,
+"lng": 12.380095
+},
+{
+"name": "IBL Banca",
+"kind": "bank",
+"lat": 43.10153,
+"lng": 12.373018
+},
+{
+"name": "Basilica di San Pietro",
+"kind": "place_of_worship",
+"lat": 43.101549,
+"lng": 12.395716
+},
+{
+"name": "Credem",
+"kind": "bank",
+"lat": 43.101585,
+"lng": 12.375871
+},
+{
+"name": "Farmacia Bolli",
+"kind": "pharmacy",
+"lat": 43.101618,
+"lng": 12.372846
+},
+{
+"name": "Ristorante Sakura",
+"kind": "restaurant",
+"lat": 43.101619,
+"lng": 12.378701
+},
+{
+"name": "BNL",
+"kind": "bank",
+"lat": 43.101908,
+"lng": 12.376181
+},
+{
+"name": "Tanto e Bene",
+"kind": "supermarket",
+"lat": 43.101911,
+"lng": 12.377503
+},
+{
+"name": "Bar Dafne",
+"kind": "cafe",
+"lat": 43.10206,
+"lng": 12.378274
+},
+{
+"name": "Tabaccheria Trilli",
+"kind": "tobacco",
+"lat": 43.102547,
+"lng": 12.376149
+},
+{
+"name": "Bar Due+Due",
+"kind": "cafe",
+"lat": 43.102583,
+"lng": 12.383227
+},
+{
+"name": "Banca Carige Italia S.P.A",
+"kind": "bank",
+"lat": 43.102602,
+"lng": 12.376095
+},
+{
+"name": "El Cordobes pizz. rist.",
+"kind": "restaurant",
+"lat": 43.102653,
+"lng": 12.35216
+},
+{
+"name": "Bar Giusy",
+"kind": "cafe",
+"lat": 43.102761,
+"lng": 12.352139
+},
+{
+"name": "Il Cigno hotel",
+"kind": "hotel",
+"lat": 43.102918,
+"lng": 12.352278
+},
+{
+"name": "M Bar Ristorante Pizzeria",
+"kind": "restaurant",
+"lat": 43.103007,
+"lng": 12.351291
+},
+{
+"name": "San Manno",
+"kind": "place_of_worship",
+"lat": 43.103175,
+"lng": 12.350071
+},
+{
+"name": "Chiesa Sant'Antonio di Padova",
+"kind": "place_of_worship",
+"lat": 43.103268,
+"lng": 12.380011
+},
+{
+"name": "Ristorante del tennis",
+"kind": "restaurant",
+"lat": 43.103332,
+"lng": 12.396054
+},
+{
+"name": "Asia Africa mini market",
+"kind": "convenience",
+"lat": 43.103598,
+"lng": 12.374463
+},
+{
+"name": "L'Officina",
+"kind": "restaurant",
+"lat": 43.103603,
+"lng": 12.393819
+},
+{
+"name": "Biblioteca OASIS",
+"kind": "library",
+"lat": 43.103615,
+"lng": 12.379491
+},
+{
+"name": "Pizzeria Bebeto",
+"kind": "restaurant",
+"lat": 43.103714,
+"lng": 12.372747
+},
+{
+"name": "Ambrosiana Pasticceria e Panetteria",
+"kind": "bakery",
+"lat": 43.103896,
+"lng": 12.393399
+},
+{
+"name": "I Mattarelli",
+"kind": "restaurant",
+"lat": 43.103921,
+"lng": 12.384323
+},
+{
+"name": "Coffee shop",
+"kind": "cafe",
+"lat": 43.103959,
+"lng": 12.373599
+},
+{
+"name": "Pizza Express",
+"kind": "restaurant",
+"lat": 43.104062,
+"lng": 12.373995
+},
+{
+"name": "Farmacia Fontivegge",
+"kind": "pharmacy",
+"lat": 43.104124,
+"lng": 12.376637
+},
+{
+"name": "Cornicchia",
+"kind": "tobacco",
+"lat": 43.104129,
+"lng": 12.384482
+},
+{
+"name": "Nadir",
+"kind": "restaurant",
+"lat": 43.104135,
+"lng": 12.394192
+},
+{
+"name": "Chiesa Evangelica",
+"kind": "place_of_worship",
+"lat": 43.104151,
+"lng": 12.388592
+},
+{
+"name": "Bar Europa",
+"kind": "bar",
+"lat": 43.104165,
+"lng": 12.390396
+},
+{
+"name": "Santa Giuliana",
+"kind": "place_of_worship",
+"lat": 43.104173,
+"lng": 12.385993
+},
+{
+"name": "Astor Hotel",
+"kind": "hotel",
+"lat": 43.104215,
+"lng": 12.376745
+},
+{
+"name": "Little Sicily",
+"kind": "bar",
+"lat": 43.104239,
+"lng": 12.393096
+},
+{
+"name": "Pizzeria Del Borgo",
+"kind": "restaurant",
+"lat": 43.104284,
+"lng": 12.393303
+},
+{
+"name": "Pizzeria La Romantica",
+"kind": "restaurant",
+"lat": 43.104329,
+"lng": 12.393039
+},
+{
+"name": "Biblioteca Villa Urbani",
+"kind": "library",
+"lat": 43.104378,
+"lng": 12.382278
+},
+{
+"name": "Al Caffe",
+"kind": "cafe",
+"lat": 43.104384,
+"lng": 12.389591
+},
+{
+"name": "Porta San Girolamo",
+"kind": "city_gate",
+"lat": 43.104394,
+"lng": 12.394513
+},
+{
+"name": "Porta San Pietro",
+"kind": "city_gate",
+"lat": 43.104608,
+"lng": 12.392939
+},
+{
+"name": "Bar Firenze",
+"kind": "cafe",
+"lat": 43.104632,
+"lng": 12.353805
+},
+{
+"name": "Numero Zero",
+"kind": "restaurant",
+"lat": 43.104646,
+"lng": 12.393225
+},
+{
+"name": "UniCredit Bank",
+"kind": "bank",
+"lat": 43.104681,
+"lng": 12.377599
+},
+{
+"name": "Bar Pellas",
+"kind": "bar",
+"lat": 43.10471,
+"lng": 12.384532
+},
+{
+"name": "Farmacia Dott. Valente",
+"kind": "pharmacy",
+"lat": 43.104712,
+"lng": 12.384093
+},
+{
+"name": "Hotel Signa",
+"kind": "hotel",
+"lat": 43.104741,
+"lng": 12.392312
+},
+{
+"name": "Biblioteca delle nuvole",
+"kind": "library",
+"lat": 43.104752,
+"lng": 12.369276
+},
+{
+"name": "Rossini la pasticceria",
+"kind": "pastry",
+"lat": 43.104822,
+"lng": 12.377814
+},
+{
+"name": "Caffé del Moro",
+"kind": "cafe",
+"lat": 43.104859,
+"lng": 12.37503
+},
+{
+"name": "Mensa",
+"kind": "restaurant",
+"lat": 43.104897,
+"lng": 12.375134
+},
+{
+"name": "Borgo 206",
+"kind": "cafe",
+"lat": 43.104915,
+"lng": 12.392771
+},
+{
+"name": "Coop",
+"kind": "supermarket",
+"lat": 43.104972,
+"lng": 12.376022
+},
+{
+"name": "La Campagnola",
+"kind": "restaurant",
+"lat": 43.104973,
+"lng": 12.392707
+},
+{
+"name": "Nicolini Bar Pasticceria",
+"kind": "bar",
+"lat": 43.105035,
+"lng": 12.377823
+},
+{
+"name": "Perugia 5",
+"kind": "post_office",
+"lat": 43.10517,
+"lng": 12.37794
+},
+{
+"name": "Chiesa di Santa Maria del Colle",
+"kind": "place_of_worship",
+"lat": 43.105204,
+"lng": 12.392575
+},
+{
+"name": "Bar",
+"kind": "cafe",
+"lat": 43.105243,
+"lng": 12.37595
+},
+{
+"name": "Coop",
+"kind": "supermarket",
+"lat": 43.105278,
+"lng": 12.369563
+},
+{
+"name": "Deutsche Bank",
+"kind": "bank",
+"lat": 43.105368,
+"lng": 12.378331
+},
+{
+"name": "Banca Mediolanum",
+"kind": "bank",
+"lat": 43.105369,
+"lng": 12.378482
+},
+{
+"name": "Bar Cortonese",
+"kind": "bar",
+"lat": 43.105387,
+"lng": 12.372101
+},
+{
+"name": "Chiesa di san Giovanni Battista",
+"kind": "place_of_worship",
+"lat": 43.105465,
+"lng": 12.350941
+},
+{
+"name": "Farmacia Cortonese",
+"kind": "pharmacy",
+"lat": 43.105703,
+"lng": 12.368782
+},
+{
+"name": "Pasticceria dei Pini",
+"kind": "bar",
+"lat": 43.105715,
+"lng": 12.38075
+},
+{
+"name": "Ciminiera Perugina",
+"kind": "monument",
+"lat": 43.10573,
+"lng": 12.376863
+},
+{
+"name": "Fontana di Veggio",
+"kind": "fountain",
+"lat": 43.105784,
+"lng": 12.379298
+},
+{
+"name": "Al Massiano",
+"kind": "hotel",
+"lat": 43.10584,
+"lng": 12.362379
+},
+{
+"name": "Orto del Frate",
+"kind": "restaurant",
+"lat": 43.105903,
+"lng": 12.368423
+},
+{
+"name": "Todis supermercato",
+"kind": "supermarket",
+"lat": 43.105905,
+"lng": 12.353607
+},
+{
+"name": "Tabaccheria 18",
+"kind": "cafe",
+"lat": 43.106043,
+"lng": 12.378756
+},
+{
+"name": "Sangallo Palace",
+"kind": "restaurant",
+"lat": 43.10607,
+"lng": 12.388238
+},
+{
+"name": "Locanda dei Pazzi",
+"kind": "restaurant",
+"lat": 43.106096,
+"lng": 12.391726
+},
+{
+"name": "Bar Massiano",
+"kind": "bar",
+"lat": 43.106107,
+"lng": 12.362392
+},
+{
+"name": "Barrafra",
+"kind": "bar",
+"lat": 43.106135,
+"lng": 12.391666
+},
+{
+"name": "Sangallo Palace Hotel",
+"kind": "hotel",
+"lat": 43.106152,
+"lng": 12.388169
+},
+{
+"name": "Wasabi",
+"kind": "restaurant",
+"lat": 43.106272,
+"lng": 12.377898
+},
+{
+"name": "Lafarmacia Rossi Perugia",
+"kind": "pharmacy",
+"lat": 43.106274,
+"lng": 12.388749
+},
+{
+"name": "Pasticceria Etrusca",
+"kind": "cafe",
+"lat": 43.10633,
+"lng": 12.377735
+},
+{
+"name": "Libreria Cavour Esoterica",
+"kind": "books",
+"lat": 43.106367,
+"lng": 12.391367
+},
+{
+"name": "Menchetti",
+"kind": "bar",
+"lat": 43.106384,
+"lng": 12.36155
+},
+{
+"name": "Antico Caffè",
+"kind": "cafe",
+"lat": 43.106405,
+"lng": 12.368896
+},
+{
+"name": "Teatro di figura del Borgobello",
+"kind": "theatre",
+"lat": 43.106486,
+"lng": 12.391492
+},
+{
+"name": "L'Orselli",
+"kind": "restaurant",
+"lat": 43.106512,
+"lng": 12.362108
+},
+{
+"name": "UniCredit Bank",
+"kind": "bank",
+"lat": 43.106536,
+"lng": 12.362445
+},
+{
+"name": "Basilica di San Domenico",
+"kind": "place_of_worship",
+"lat": 43.106573,
+"lng": 12.391943
+},
+{
+"name": "Enone",
+"kind": "restaurant",
+"lat": 43.106819,
+"lng": 12.391046
+},
+{
+"name": "Ènonè wine bar",
+"kind": "restaurant",
+"lat": 43.106846,
+"lng": 12.390732
+},
+{
+"name": "Museo Archeologico Nazionale dell'Umbria",
+"kind": "museum",
+"lat": 43.106881,
+"lng": 12.392427
+},
+{
+"name": "Hotel Iris",
+"kind": "hotel",
+"lat": 43.10689,
+"lng": 12.388871
+},
+{
+"name": "Archivio di Stato",
+"kind": "museum",
+"lat": 43.106952,
+"lng": 12.391587
+},
+{
+"name": "Minimarket panini",
+"kind": "convenience",
+"lat": 43.106963,
+"lng": 12.391069
+},
+{
+"name": "Sala Cutu - teatro di Sacco",
+"kind": "theatre",
+"lat": 43.106976,
+"lng": 12.391223
+},
+{
+"name": "Stadium Café",
+"kind": "bar",
+"lat": 43.107022,
+"lng": 12.358121
+},
+{
+"name": "Museo AC Perugia Carlo Giulietti",
+"kind": "museum",
+"lat": 43.10707,
+"lng": 12.3579
+},
+{
+"name": "Sole Mio",
+"kind": "restaurant",
+"lat": 43.107116,
+"lng": 12.39096
+},
+{
+"name": "Miramonti",
+"kind": "restaurant",
+"lat": 43.107219,
+"lng": 12.390937
+},
+{
+"name": "Tankard pizzeria",
+"kind": "restaurant",
+"lat": 43.107227,
+"lng": 12.390061
+},
+{
+"name": "Ristorante Iris",
+"kind": "restaurant",
+"lat": 43.107315,
+"lng": 12.389278
+},
+{
+"name": "Millevoglie",
+"kind": "pastry",
+"lat": 43.107325,
+"lng": 12.390674
+},
+{
+"name": "L'Edicola",
+"kind": "newsagent",
+"lat": 43.107342,
+"lng": 12.390847
+},
+{
+"name": "Parrocchia di Santo Spirito - Centro Shalom",
+"kind": "place_of_worship",
+"lat": 43.107386,
+"lng": 12.383836
+},
+{
+"name": "Mondadori Bookstore",
+"kind": "books",
+"lat": 43.107393,
+"lng": 12.366748
+},
+{
+"name": "Chiesa di Santo Spirito",
+"kind": "place_of_worship",
+"lat": 43.107397,
+"lng": 12.38586
+},
+{
+"name": "Teatro Franco Bicini",
+"kind": "theatre",
+"lat": 43.107402,
+"lng": 12.391576
+},
+{
+"name": "Pam Local",
+"kind": "convenience",
+"lat": 43.107416,
+"lng": 12.390207
+},
+{
+"name": "Rosalba Hotel",
+"kind": "hotel",
+"lat": 43.107437,
+"lng": 12.387779
+},
+{
+"name": "Porta Santa Croce",
+"kind": "city_gate",
+"lat": 43.107445,
+"lng": 12.389934
+},
+{
+"name": "Chiesa di San Barnaba",
+"kind": "place_of_worship",
+"lat": 43.107472,
+"lng": 12.370181
+},
+{
+"name": "Bar 3 archetti",
+"kind": "cafe",
+"lat": 43.107541,
+"lng": 12.390726
+},
+{
+"name": "Parafarmacia",
+"kind": "pharmacy",
+"lat": 43.107565,
+"lng": 12.390474
+},
+{
+"name": "UnipolBanca",
+"kind": "bank",
+"lat": 43.107567,
+"lng": 12.369254
+},
+{
+"name": "Pizzeria Mediterranea",
+"kind": "restaurant",
+"lat": 43.107614,
+"lng": 12.390022
+},
+{
+"name": "Porta Crucia o Eburnea nuova",
+"kind": "city_gate",
+"lat": 43.107626,
+"lng": 12.385184
+},
+{
+"name": "Dalla Bianca",
+"kind": "restaurant",
+"lat": 43.107706,
+"lng": 12.391123
+},
+{
+"name": "Chiesa Santa Maria di Case Bruciate",
+"kind": "place_of_worship",
+"lat": 43.107736,
+"lng": 12.374691
+},
+{
+"name": "Farmacia Case Bruciate",
+"kind": "pharmacy",
+"lat": 43.10775,
+"lng": 12.375431
+},
+{
+"name": "Il Ritrovo del Grifo",
+"kind": "restaurant",
+"lat": 43.107774,
+"lng": 12.356682
+},
+{
+"name": "Museo civico di Palazzo della Penna-Centro di Cultura Contemporanea",
+"kind": "museum",
+"lat": 43.107816,
+"lng": 12.389462
+},
+{
+"name": "Studio Moretti Caselli - Museo-Laboratorio di Vetrate Artistiche",
+"kind": "museum",
+"lat": 43.107897,
+"lng": 12.387314
+},
+{
+"name": "Storie Perugine",
+"kind": "restaurant",
+"lat": 43.10792,
+"lng": 12.39025
+},
+{
+"name": "CO.FO.PA.",
+"kind": "bakery",
+"lat": 43.107932,
+"lng": 12.390046
+},
+{
+"name": "La Tabaccheria Di Fabrizio Vinti",
+"kind": "tobacco",
+"lat": 43.107986,
+"lng": 12.390217
+},
+{
+"name": "EniBar",
+"kind": "bar",
+"lat": 43.107998,
+"lng": 12.378373
+},
+{
+"name": "Lick",
+"kind": "ice_cream",
+"lat": 43.108069,
+"lng": 12.390126
+},
+{
+"name": "Cassa di risparmio di Orvieto",
+"kind": "bank",
+"lat": 43.108092,
+"lng": 12.377984
+},
+{
+"name": "La Birroteca",
+"kind": "restaurant",
+"lat": 43.108121,
+"lng": 12.389962
+},
+{
+"name": "Le Mille Delizie - Pasticceria - Pizzeria",
+"kind": "pastry",
+"lat": 43.108142,
+"lng": 12.390779
+},
+{
+"name": "Pizzeria Capri",
+"kind": "restaurant",
+"lat": 43.108185,
+"lng": 12.390062
+},
+{
+"name": "Lick",
+"kind": "ice_cream",
+"lat": 43.108232,
+"lng": 12.38985
+},
+{
+"name": "Caffé della Penna",
+"kind": "cafe",
+"lat": 43.108254,
+"lng": 12.38998
+},
+{
+"name": "Porta Marzia",
+"kind": "city_gate",
+"lat": 43.108261,
+"lng": 12.388818
+},
+{
+"name": "Rocca Paolina",
+"kind": "attraction",
+"lat": 43.108262,
+"lng": 12.388105
+},
+{
+"name": "Punto di Vista",
+"kind": "restaurant",
+"lat": 43.108289,
+"lng": 12.388775
+},
+{
+"name": "Fontana di Nettuno",
+"kind": "fountain",
+"lat": 43.108314,
+"lng": 12.389159
+},
+{
+"name": "Hotel Sina Brufani",
+"kind": "hotel",
+"lat": 43.108423,
+"lng": 12.387287
+},
+{
+"name": "Edicola 518",
+"kind": "newsagent",
+"lat": 43.108493,
+"lng": 12.38974
+},
+{
+"name": "Locanda degli Artisti",
+"kind": "restaurant",
+"lat": 43.108567,
+"lng": 12.389873
+},
+{
+"name": "Hotel Sant'Ercolano",
+"kind": "hotel",
+"lat": 43.108593,
+"lng": 12.390316
+},
+{
+"name": "BNL",
+"kind": "bank",
+"lat": 43.108595,
+"lng": 12.387526
+},
+{
+"name": "Porta Eburnea",
+"kind": "attraction",
+"lat": 43.108638,
+"lng": 12.3857
+},
+{
+"name": "Porta San Giacomo",
+"kind": "city_gate",
+"lat": 43.10864,
+"lng": 12.384497
+},
+{
+"name": "Chiesa di Sant'Ercolano",
+"kind": "place_of_worship",
+"lat": 43.108664,
+"lng": 12.389547
+},
+{
+"name": "Cafè Sant'Ercolano",
+"kind": "cafe",
+"lat": 43.10871,
+"lng": 12.389791
+},
+{
+"name": "Osteria i Birbi",
+"kind": "restaurant",
+"lat": 43.108719,
+"lng": 12.390018
+},
+{
+"name": "Antichi Sapori di Cina",
+"kind": "restaurant",
+"lat": 43.108725,
+"lng": 12.388883
+},
+{
+"name": "Sirena",
+"kind": "fountain",
+"lat": 43.108884,
+"lng": 12.388616
+},
+{
+"name": "Arco di Sant'Ercolano",
+"kind": "attraction",
+"lat": 43.108889,
+"lng": 12.389717
+},
+{
+"name": "Banca di Italia",
+"kind": "bank",
+"lat": 43.108902,
+"lng": 12.387646
+},
+{
+"name": "Farmacia Pian di Massiano",
+"kind": "pharmacy",
+"lat": 43.108904,
+"lng": 12.360446
+},
+{
+"name": "Banca d'Italia",
+"kind": "bank",
+"lat": 43.108942,
+"lng": 12.387486
+},
+{
+"name": "Bimba al sole",
+"kind": "fountain",
+"lat": 43.108989,
+"lng": 12.388117
+},
+{
+"name": "Alphaville - S.Ercolano",
+"kind": "cafe",
+"lat": 43.109,
+"lng": 12.389837
+},
+{
+"name": "Osteria del ghiottone",
+"kind": "restaurant",
+"lat": 43.109029,
+"lng": 12.386802
+},
+{
+"name": "Taverna 36",
+"kind": "restaurant",
+"lat": 43.109048,
+"lng": 12.389608
+},
+{
+"name": "Ristorante Altromondo",
+"kind": "restaurant",
+"lat": 43.10907,
+"lng": 12.387067
+},
+{
+"name": "Eden hotel",
+"kind": "hotel",
+"lat": 43.109072,
+"lng": 12.38711
+},
+{
+"name": "San Prospero",
+"kind": "place_of_worship",
+"lat": 43.109096,
+"lng": 12.381973
+},
+{
+"name": "Monte dei Paschi di Siena",
+"kind": "bank",
+"lat": 43.109167,
+"lng": 12.387741
+},
+{
+"name": "Umbrò",
+"kind": "restaurant",
+"lat": 43.109238,
+"lng": 12.389821
+},
+{
+"name": "Bar Tender",
+"kind": "bar",
+"lat": 43.109243,
+"lng": 12.360538
+},
+{
+"name": "Rosetta Hotel Perugia, Tapestry Collection by Hilton",
+"kind": "hotel",
+"lat": 43.109306,
+"lng": 12.387773
+},
+{
+"name": "Salone d'onore",
+"kind": "attraction",
+"lat": 43.109321,
+"lng": 12.388216
+},
+{
+"name": "Gelateria Veneta",
+"kind": "cafe",
+"lat": 43.109351,
+"lng": 12.387803
+},
+{
+"name": "La Rosetta",
+"kind": "restaurant",
+"lat": 43.109361,
+"lng": 12.387879
+},
+{
+"name": "Fortuna Hotel",
+"kind": "hotel",
+"lat": 43.109648,
+"lng": 12.387396
+},
+{
+"name": "Conad Superstore",
+"kind": "supermarket",
+"lat": 43.109703,
+"lng": 12.362167
+},
+{
+"name": "Blitz Caffè",
+"kind": "cafe",
+"lat": 43.109703,
+"lng": 12.388056
+},
+{
+"name": "Locanda della Posta 1786",
+"kind": "hotel",
+"lat": 43.109741,
+"lng": 12.388087
+},
+{
+"name": "Teatro della Sapienza",
+"kind": "theatre",
+"lat": 43.109783,
+"lng": 12.386713
+},
+{
+"name": "Comune di Perugia",
+"kind": "townhall",
+"lat": 43.109809,
+"lng": 12.365537
+},
+{
+"name": "Caffé Baglioni",
+"kind": "cafe",
+"lat": 43.109817,
+"lng": 12.389356
+},
+{
+"name": "Trattoria Oberdan",
+"kind": "restaurant",
+"lat": 43.109818,
+"lng": 12.389786
+},
+{
+"name": "Roadhouse",
+"kind": "restaurant",
+"lat": 43.109859,
+"lng": 12.362089
+},
+{
+"name": "Rataplan",
+"kind": "bar",
+"lat": 43.109926,
+"lng": 12.388411
+},
+{
+"name": "La Feltrinelli",
+"kind": "books",
+"lat": 43.109948,
+"lng": 12.38858
+},
+{
+"name": "Il Baldo",
+"kind": "restaurant",
+"lat": 43.109955,
+"lng": 12.38891
+},
+{
+"name": "Ristorante del Sole",
+"kind": "restaurant",
+"lat": 43.109957,
+"lng": 12.39014
+},
+{
+"name": "Carloni",
+"kind": "ice_cream",
+"lat": 43.109985,
+"lng": 12.38779
+},
+{
+"name": "Living Café",
+"kind": "cafe",
+"lat": 43.110033,
+"lng": 12.390182
+},
+{
+"name": "Blu",
+"kind": "bar",
+"lat": 43.110083,
+"lng": 12.38858
+},
+{
+"name": "La Pasteria",
+"kind": "restaurant",
+"lat": 43.110089,
+"lng": 12.388878
+},
+{
+"name": "Snack Bar",
+"kind": "bar",
+"lat": 43.110094,
+"lng": 12.387953
+},
+{
+"name": "Yo!",
+"kind": "ice_cream",
+"lat": 43.110126,
+"lng": 12.389468
+},
+{
+"name": "Crudo",
+"kind": "restaurant",
+"lat": 43.110134,
+"lng": 12.388596
+},
+{
+"name": "La Taverna",
+"kind": "restaurant",
+"lat": 43.110157,
+"lng": 12.387872
+},
+{
+"name": "Tabacchi Enoteca Berretta",
+"kind": "tobacco",
+"lat": 43.110178,
+"lng": 12.388002
+},
+{
+"name": "Deutsche Bank",
+"kind": "bank",
+"lat": 43.11018,
+"lng": 12.38997
+},
+{
+"name": "Bar Massiano",
+"kind": "cafe",
+"lat": 43.110196,
+"lng": 12.352374
+},
+{
+"name": "Teatro del Pavone",
+"kind": "theatre",
+"lat": 43.110248,
+"lng": 12.38809
+},
+{
+"name": "Palazzo Baldeschi",
+"kind": "museum",
+"lat": 43.110259,
+"lng": 12.388604
+},
+{
+"name": "Pam Local",
+"kind": "convenience",
+"lat": 43.110286,
+"lng": 12.389317
+},
+{
+"name": "Locanda del Bartoccio",
+"kind": "restaurant",
+"lat": 43.110346,
+"lng": 12.389727
+},
+{
+"name": "Caffe Vannucci",
+"kind": "cafe",
+"lat": 43.110366,
+"lng": 12.388266
+},
+{
+"name": "Chiesa di Santa Maria della Colombata",
+"kind": "place_of_worship",
+"lat": 43.110425,
+"lng": 12.379727
+},
+{
+"name": "Farmacia Lemmi",
+"kind": "pharmacy",
+"lat": 43.110431,
+"lng": 12.3883
+},
+{
+"name": "Locanda Del Bartoccio",
+"kind": "restaurant",
+"lat": 43.110451,
+"lng": 12.389626
+},
+{
+"name": "Antica Latteria",
+"kind": "bar",
+"lat": 43.110455,
+"lng": 12.389405
+},
+{
+"name": "DAJE",
+"kind": "restaurant",
+"lat": 43.11049,
+"lng": 12.388806
+},
+{
+"name": "Café Timbuktu",
+"kind": "restaurant",
+"lat": 43.110529,
+"lng": 12.389235
+},
+{
+"name": "Via della Rupe",
+"kind": "bar",
+"lat": 43.110556,
+"lng": 12.389777
+},
+{
+"name": "Mezza Luna",
+"kind": "restaurant",
+"lat": 43.110578,
+"lng": 12.387982
+},
+{
+"name": "Caffè di Roma - Perugia",
+"kind": "bar",
+"lat": 43.110588,
+"lng": 12.389794
+},
+{
+"name": "Santa Maria della Valle",
+"kind": "place_of_worship",
+"lat": 43.110603,
+"lng": 12.386972
+},
+{
+"name": "Al Mangiar Bene",
+"kind": "restaurant",
+"lat": 43.110627,
+"lng": 12.387568
+},
+{
+"name": "Lo Chalet",
+"kind": "bar",
+"lat": 43.110667,
+"lng": 12.392634
+},
+{
+"name": "Farmacia Tarpani",
+"kind": "pharmacy",
+"lat": 43.110724,
+"lng": 12.389803
+},
+{
+"name": "Ferrari",
+"kind": "restaurant",
+"lat": 43.110725,
+"lng": 12.388334
+},
+{
+"name": "Anfiteatro",
+"kind": "theatre",
+"lat": 43.110734,
+"lng": 12.386692
+},
+{
+"name": "Biblioteca comunale degli Arconi",
+"kind": "library",
+"lat": 43.110737,
+"lng": 12.389929
+},
+{
+"name": "La Gelateria",
+"kind": "ice_cream",
+"lat": 43.110744,
+"lng": 12.389456
+},
+{
+"name": "Mercato Vianova",
+"kind": "restaurant",
+"lat": 43.110798,
+"lng": 12.389078
+},
+{
+"name": "Perugia City Tour",
+"kind": "attraction",
+"lat": 43.1108,
+"lng": 12.389439
+},
+{
+"name": "UniCredit",
+"kind": "bank",
+"lat": 43.11085,
+"lng": 12.388394
+},
+{
+"name": "+Gusto",
+"kind": "restaurant",
+"lat": 43.110877,
+"lng": 12.389041
+},
+{
+"name": "Hotel Umbria",
+"kind": "hotel",
+"lat": 43.11089,
+"lng": 12.387567
+},
+{
+"name": "Caffe di Perugia",
+"kind": "restaurant",
+"lat": 43.110894,
+"lng": 12.388976
+},
+{
+"name": "Farmacia San Martino",
+"kind": "pharmacy",
+"lat": 43.110914,
+"lng": 12.389801
+},
+{
+"name": "The Chocolate Bar",
+"kind": "bar",
+"lat": 43.11104,
+"lng": 12.390271
+},
+{
+"name": "Ufficio postale Perugia Centro",
+"kind": "post_office",
+"lat": 43.1111,
+"lng": 12.389352
+},
+{
+"name": "Palazzo del Capitano del Popolo",
+"kind": "monument",
+"lat": 43.111107,
+"lng": 12.389925
+},
+{
+"name": "Farmacia Andreoli",
+"kind": "pharmacy",
+"lat": 43.111125,
+"lng": 12.388481
+},
+{
+"name": "Barley Agricolo Umbro",
+"kind": "restaurant",
+"lat": 43.111162,
+"lng": 12.389784
+},
+{
+"name": "Il Quinto Vizio",
+"kind": "ice_cream",
+"lat": 43.111163,
+"lng": 12.362072
+},
+{
+"name": "Il Bacio",
+"kind": "restaurant",
+"lat": 43.111181,
+"lng": 12.388251
+},
+{
+"name": "Città del Cioccolatto",
+"kind": "museum",
+"lat": 43.111218,
+"lng": 12.39031
+},
+{
+"name": "Europa",
+"kind": "hotel",
+"lat": 43.111242,
+"lng": 12.383591
+},
+{
+"name": "Collegio del Cambio",
+"kind": "museum",
+"lat": 43.111273,
+"lng": 12.388362
+},
+{
+"name": "Chiesa di Santa Teresa degli Scalzi",
+"kind": "place_of_worship",
+"lat": 43.111293,
+"lng": 12.385267
+},
+{
+"name": "Banca Popolare di Spoleto",
+"kind": "bank",
+"lat": 43.1113,
+"lng": 12.389127
+},
+{
+"name": "Sandwich Club Barton Park",
+"kind": "restaurant",
+"lat": 43.111303,
+"lng": 12.362175
+},
+{
+"name": "Mastro Cianuri",
+"kind": "ice_cream",
+"lat": 43.111344,
+"lng": 12.389871
+},
+{
+"name": "Ceccarani",
+"kind": "pastry",
+"lat": 43.111412,
+"lng": 12.389886
+},
+{
+"name": "Tea Perugia",
+"kind": "cafe",
+"lat": 43.111418,
+"lng": 12.388448
+},
+{
+"name": "Elfo's Pub",
+"kind": "bar",
+"lat": 43.111429,
+"lng": 12.387591
+},
+{
+"name": "Il Greco",
+"kind": "restaurant",
+"lat": 43.11147,
+"lng": 12.388045
+},
+{
+"name": "Loft",
+"kind": "cafe",
+"lat": 43.111473,
+"lng": 12.388346
+},
+{
+"name": "Coop",
+"kind": "supermarket",
+"lat": 43.111476,
+"lng": 12.389903
+},
+{
+"name": "Conad",
+"kind": "supermarket",
+"lat": 43.111489,
+"lng": 12.377703
+},
+{
+"name": "Botanica",
+"kind": "restaurant",
+"lat": 43.111491,
+"lng": 12.388222
+},
+{
+"name": "San Fiorenzo B&B",
+"kind": "hotel",
+"lat": 43.111527,
+"lng": 12.391619
+},
+{
+"name": "Michele e co.",
+"kind": "restaurant",
+"lat": 43.111528,
+"lng": 12.357007
+},
+{
+"name": "Bar Gold",
+"kind": "cafe",
+"lat": 43.111537,
+"lng": 12.388279
+},
+{
+"name": "CO.FO.PA",
+"kind": "bakery",
+"lat": 43.11156,
+"lng": 12.389915
+},
+{
+"name": "Municipio di Perugia",
+"kind": "townhall",
+"lat": 43.111565,
+"lng": 12.388417
+},
+{
+"name": "Palazzo dei Priori",
+"kind": "attraction",
+"lat": 43.111565,
+"lng": 12.388438
+},
+{
+"name": "Chiesa di Sant’Agata",
+"kind": "place_of_worship",
+"lat": 43.111579,
+"lng": 12.387837
+},
+{
+"name": "Galleria nazionale dell'Umbria",
+"kind": "museum",
+"lat": 43.111598,
+"lng": 12.388643
+},
+{
+"name": "Merlin's",
+"kind": "restaurant",
+"lat": 43.111601,
+"lng": 12.389105
+},
+{
+"name": "Chiesa del Gesù",
+"kind": "place_of_worship",
+"lat": 43.111642,
+"lng": 12.390173
+},
+{
+"name": "Hotel dei Priori",
+"kind": "hotel",
+"lat": 43.111669,
+"lng": 12.387431
+},
+{
+"name": "Jolly Roger lounge bar",
+"kind": "bar",
+"lat": 43.111672,
+"lng": 12.389343
+},
+{
+"name": "Bottega dei Priori",
+"kind": "restaurant",
+"lat": 43.111689,
+"lng": 12.387777
+},
+{
+"name": "Caffetteria del Gesù",
+"kind": "cafe",
+"lat": 43.111743,
+"lng": 12.389758
+},
+{
+"name": "Perugia Centro",
+"kind": "tobacco",
+"lat": 43.111765,
+"lng": 12.38868
+},
+{
+"name": "Pizza E Musica",
+"kind": "restaurant",
+"lat": 43.111772,
+"lng": 12.392533
+},
+{
+"name": "Lezioni di Greco",
+"kind": "restaurant",
+"lat": 43.111774,
+"lng": 12.377754
+},
+{
+"name": "Eurochocolate Store",
+"kind": "chocolate",
+"lat": 43.111774,
+"lng": 12.389037
+},
+{
+"name": "Pelletterie",
+"kind": "cafe",
+"lat": 43.111786,
+"lng": 12.389793
+},
+{
+"name": "Hotel Giò Wine",
+"kind": "hotel",
+"lat": 43.111793,
+"lng": 12.377251
+},
+{
+"name": "Osteria n.13",
+"kind": "restaurant",
+"lat": 43.111796,
+"lng": 12.388272
+},
+{
+"name": "Secret",
+"kind": "hotel",
+"lat": 43.111802,
+"lng": 12.387352
+},
+{
+"name": "Forno Il Parma",
+"kind": "convenience",
+"lat": 43.111804,
+"lng": 12.387627
+},
+{
+"name": "Secret",
+"kind": "restaurant",
+"lat": 43.11181,
+"lng": 12.3873
+},
+{
+"name": "La Perugia del Cioccolato Mania",
+"kind": "chocolate",
+"lat": 43.111823,
+"lng": 12.389231
+},
+{
+"name": "Sala dei Notari",
+"kind": "attraction",
+"lat": 43.111825,
+"lng": 12.388571
+},
+{
+"name": "Caffè del Banco",
+"kind": "bar",
+"lat": 43.111826,
+"lng": 12.388689
+},
+{
+"name": "Vannucci",
+"kind": "chocolate",
+"lat": 43.111846,
+"lng": 12.388701
+},
+{
+"name": "Osteria A Priori",
+"kind": "restaurant",
+"lat": 43.11186,
+"lng": 12.387452
+},
+{
+"name": "Porta di Santa Susanna",
+"kind": "attraction",
+"lat": 43.111861,
+"lng": 12.382936
+},
+{
+"name": "Trattoria delle Volte",
+"kind": "restaurant",
+"lat": 43.111922,
+"lng": 12.389852
+},
+{
+"name": "Mastro Cianuri",
+"kind": "ice_cream",
+"lat": 43.111959,
+"lng": 12.377757
+},
+{
+"name": "Loop Café",
+"kind": "bar",
+"lat": 43.111996,
+"lng": 12.392498
+},
+{
+"name": "Albergo Anna",
+"kind": "hotel",
+"lat": 43.112005,
+"lng": 12.386633
+},
+{
+"name": "Il porco rosso",
+"kind": "bar",
+"lat": 43.112011,
+"lng": 12.390147
+},
+{
+"name": "Osteria del Gufo",
+"kind": "restaurant",
+"lat": 43.112018,
+"lng": 12.392337
+},
+{
+"name": "Bar Centrale",
+"kind": "cafe",
+"lat": 43.112023,
+"lng": 12.389436
+},
+{
+"name": "Sant'Andrea in Porta Santa Susanna",
+"kind": "place_of_worship",
+"lat": 43.11203,
+"lng": 12.382764
+},
+{
+"name": "Turan Cafè",
+"kind": "cafe",
+"lat": 43.112045,
+"lng": 12.38945
+},
+{
+"name": "Chiesa di San Filippo Neri",
+"kind": "place_of_worship",
+"lat": 43.112046,
+"lng": 12.387121
+},
+{
+"name": "Da Cesarino",
+"kind": "restaurant",
+"lat": 43.11205,
+"lng": 12.388275
+},
+{
+"name": "Bar Pasticceria dell'Accademia",
+"kind": "pastry",
+"lat": 43.11207,
+"lng": 12.386498
+},
+{
+"name": "Chiesa ortodossa di San Gennaro",
+"kind": "place_of_worship",
+"lat": 43.112075,
+"lng": 12.38579
+},
+{
+"name": "La Sera",
+"kind": "restaurant",
+"lat": 43.112084,
+"lng": 12.357285
+},
+{
+"name": "Civico 25",
+"kind": "restaurant",
+"lat": 43.112094,
+"lng": 12.392571
+},
+{
+"name": "Credito Cooperativo Umbro",
+"kind": "bank",
+"lat": 43.11211,
+"lng": 12.389481
+},
+{
+"name": "Fontana Maggiore",
+"kind": "fountain",
+"lat": 43.112143,
+"lng": 12.388814
+},
+{
+"name": "Il cantinone",
+"kind": "restaurant",
+"lat": 43.112146,
+"lng": 12.387976
+},
+{
+"name": "Bar Duomo",
+"kind": "cafe",
+"lat": 43.11218,
+"lng": 12.389508
+},
+{
+"name": "Non C'Era",
+"kind": "restaurant",
+"lat": 43.112186,
+"lng": 12.392144
+},
+{
+"name": "Eurochocolate Store",
+"kind": "chocolate",
+"lat": 43.112198,
+"lng": 12.388326
+},
+{
+"name": "Il Tiesto",
+"kind": "restaurant",
+"lat": 43.112205,
+"lng": 12.386302
+},
+{
+"name": "Maramao",
+"kind": "restaurant",
+"lat": 43.11222,
+"lng": 12.386214
+},
+{
+"name": "Mannaggia - libri da un altro mondo",
+"kind": "books",
+"lat": 43.112226,
+"lng": 12.390939
+},
+{
+"name": "Frittole Vineria",
+"kind": "bar",
+"lat": 43.112233,
+"lng": 12.390306
+},
+{
+"name": "Verace",
+"kind": "restaurant",
+"lat": 43.11225,
+"lng": 12.390851
+},
+{
+"name": "Coffee and Cigarette",
+"kind": "cafe",
+"lat": 43.112257,
+"lng": 12.39052
+},
+{
+"name": "La moglie ubriaca",
+"kind": "bar",
+"lat": 43.112271,
+"lng": 12.390577
+},
+{
+"name": "Le Fate Ignoranti",
+"kind": "restaurant",
+"lat": 43.112294,
+"lng": 12.362405
+},
+{
+"name": "Libreria delle volte",
+"kind": "books",
+"lat": 43.112302,
+"lng": 12.388555
+},
+{
+"name": "Eurochocolate store",
+"kind": "chocolate",
+"lat": 43.112307,
+"lng": 12.388675
+},
+{
+"name": "L'artigiano Del Gelato",
+"kind": "ice_cream",
+"lat": 43.11231,
+"lng": 12.388389
+},
+{
+"name": "Trattoria Borgo San Francesco",
+"kind": "restaurant",
+"lat": 43.112322,
+"lng": 12.385742
+},
+{
+"name": "Trattoria del Borgo",
+"kind": "restaurant",
+"lat": 43.112361,
+"lng": 12.383341
+},
+{
+"name": "Islamic Center Perugia",
+"kind": "place_of_worship",
+"lat": 43.112373,
+"lng": 12.385791
+},
+{
+"name": "Edicola Cerami",
+"kind": "newsagent",
+"lat": 43.11241,
+"lng": 12.385701
+},
+{
+"name": "Casa museo degli Oddi",
+"kind": "museum",
+"lat": 43.112422,
+"lng": 12.385407
+},
+{
+"name": "Hotel Giò Jazz",
+"kind": "hotel",
+"lat": 43.112429,
+"lng": 12.37738
+},
+{
+"name": "Tabaccheria Cianchetti",
+"kind": "tobacco",
+"lat": 43.112457,
+"lng": 12.389725
+},
+{
+"name": "Stuzzicheria del Grifo",
+"kind": "bar",
+"lat": 43.112461,
+"lng": 12.389739
+},
+{
+"name": "Pozzo Etrusco",
+"kind": "attraction",
+"lat": 43.112485,
+"lng": 12.389918
+},
+{
+"name": "Arco di Via delle Volte",
+"kind": "monument",
+"lat": 43.112487,
+"lng": 12.38806
+},
+{
+"name": "San Lorenzo",
+"kind": "restaurant",
+"lat": 43.112497,
+"lng": 12.38979
+},
+{
+"name": "Fontana Maestà delle Volte",
+"kind": "fountain",
+"lat": 43.1125,
+"lng": 12.387947
+},
+{
+"name": "Cattedrale di San Lorenzo",
+"kind": "place_of_worship",
+"lat": 43.112507,
+"lng": 12.388829
+},
+{
+"name": "Dempsey's Perugia",
+"kind": "bar",
+"lat": 43.112522,
+"lng": 12.389839
+},
+{
+"name": "Museo del Capitolo della cattedrale di San Lorenzo",
+"kind": "museum",
+"lat": 43.112538,
+"lng": 12.388094
+},
+{
+"name": "I 28 Etruschi",
+"kind": "restaurant",
+"lat": 43.112538,
+"lng": 12.389923
+},
+{
+"name": "Arco dei Gigli",
+"kind": "attraction",
+"lat": 43.112538,
+"lng": 12.392653
+},
+{
+"name": "Flair Street Cocktail bar",
+"kind": "bar",
+"lat": 43.112574,
+"lng": 12.387901
+},
+{
+"name": "Chiesa dei Santi Stefano e Valentino",
+"kind": "place_of_worship",
+"lat": 43.112592,
+"lng": 12.385242
+},
+{
+"name": "omá",
+"kind": "cafe",
+"lat": 43.112612,
+"lng": 12.385506
+},
+{
+"name": "Palazzo Sorbello",
+"kind": "castle",
+"lat": 43.112616,
+"lng": 12.390519
+},
+{
+"name": "Mediterranea",
+"kind": "restaurant",
+"lat": 43.112651,
+"lng": 12.390266
+},
+{
+"name": "Caffè Arco",
+"kind": "cafe",
+"lat": 43.112658,
+"lng": 12.387793
+},
+{
+"name": "Pozzo etrusco",
+"kind": "attraction",
+"lat": 43.112659,
+"lng": 12.390467
+},
+{
+"name": "Tabaccheria di Camillo Monteleone",
+"kind": "tobacco",
+"lat": 43.112668,
+"lng": 12.387924
+},
+{
+"name": "Casa Museo Palazzo Sorbello",
+"kind": "museum",
+"lat": 43.112677,
+"lng": 12.390425
+},
+{
+"name": "Postogiusto",
+"kind": "cafe",
+"lat": 43.112687,
+"lng": 12.387745
+},
+{
+"name": "La fame - vineria e cucina",
+"kind": "restaurant",
+"lat": 43.112688,
+"lng": 12.393091
+},
+{
+"name": "Turreno",
+"kind": "cafe",
+"lat": 43.112701,
+"lng": 12.389641
+},
+{
+"name": "Turreno Teatro",
+"kind": "theatre",
+"lat": 43.112723,
+"lng": 12.389622
+},
+{
+"name": "King's Corner",
+"kind": "bar",
+"lat": 43.112734,
+"lng": 12.389202
+},
+{
+"name": "Al Tartufo",
+"kind": "restaurant",
+"lat": 43.11274,
+"lng": 12.389024
+},
+{
+"name": "Due cento grammi",
+"kind": "restaurant",
+"lat": 43.112742,
+"lng": 12.393094
+},
+{
+"name": "Il Moderno",
+"kind": "restaurant",
+"lat": 43.112742,
+"lng": 12.393279
+},
+{
+"name": "Compagnia della Morte",
+"kind": "place_of_worship",
+"lat": 43.112772,
+"lng": 12.390836
+},
+{
+"name": "L'altra libreria",
+"kind": "books",
+"lat": 43.112778,
+"lng": 12.389097
+},
+{
+"name": "Hotel Morlacchi",
+"kind": "hotel",
+"lat": 43.112812,
+"lng": 12.386742
+},
+{
+"name": "Il Settimo Sigillo",
+"kind": "restaurant",
+"lat": 43.112861,
+"lng": 12.389115
+},
+{
+"name": "Primavera Mini Hotel",
+"kind": "hotel",
+"lat": 43.11287,
+"lng": 12.38541
+},
+{
+"name": "Dinastia",
+"kind": "restaurant",
+"lat": 43.112877,
+"lng": 12.384421
+},
+{
+"name": "Bar",
+"kind": "bar",
+"lat": 43.112878,
+"lng": 12.389398
+},
+{
+"name": "Porta Trasimena",
+"kind": "attraction",
+"lat": 43.112881,
+"lng": 12.384113
+},
+{
+"name": "Cappella di San Severo",
+"kind": "museum",
+"lat": 43.112881,
+"lng": 12.392241
+},
+{
+"name": "Bar Kappa",
+"kind": "cafe",
+"lat": 43.112913,
+"lng": 12.380505
+},
+{
+"name": "Madonna della Luce",
+"kind": "place_of_worship",
+"lat": 43.112921,
+"lng": 12.384215
+},
+{
+"name": "Poli Barbara",
+"kind": "newsagent",
+"lat": 43.112924,
+"lng": 12.387895
+},
+{
+"name": "Caffè Morlacchi",
+"kind": "cafe",
+"lat": 43.112947,
+"lng": 12.38751
+},
+{
+"name": "Biblioteca Umanistica",
+"kind": "library",
+"lat": 43.112968,
+"lng": 12.387128
+},
+{
+"name": "La Pecora Nera Polpette & Co.",
+"kind": "restaurant",
+"lat": 43.112969,
+"lng": 12.388451
+},
+{
+"name": "Bastik Caffe",
+"kind": "cafe",
+"lat": 43.112992,
+"lng": 12.388329
+},
+{
+"name": "Chiesa di San Severo",
+"kind": "place_of_worship",
+"lat": 43.112992,
+"lng": 12.392099
+},
+{
+"name": "Mater Gratiae",
+"kind": "restaurant",
+"lat": 43.113015,
+"lng": 12.373167
+},
+{
+"name": "Chiesa di San Luca",
+"kind": "place_of_worship",
+"lat": 43.113028,
+"lng": 12.384071
+},
+{
+"name": "Poggio Cafè",
+"kind": "cafe",
+"lat": 43.113035,
+"lng": 12.38441
+},
+{
+"name": "Libreria Morlacchi",
+"kind": "books",
+"lat": 43.113089,
+"lng": 12.387515
+},
+{
+"name": "Osteria Cardinali",
+"kind": "restaurant",
+"lat": 43.113108,
+"lng": 12.389461
+},
+{
+"name": "StarShop",
+"kind": "books",
+"lat": 43.113111,
+"lng": 12.379459
+},
+{
+"name": "Forno Fontana",
+"kind": "bakery",
+"lat": 43.113174,
+"lng": 12.389176
+},
+{
+"name": "Il Giurista",
+"kind": "restaurant",
+"lat": 43.113212,
+"lng": 12.389663
+},
+{
+"name": "Piazza Ansidei",
+"kind": "restaurant",
+"lat": 43.113224,
+"lng": 12.389151
+},
+{
+"name": "Ristorante Da Peppone",
+"kind": "restaurant",
+"lat": 43.113226,
+"lng": 12.387774
+},
+{
+"name": "Impastata Guasta Piazza Morlacchi",
+"kind": "restaurant",
+"lat": 43.113249,
+"lng": 12.386543
+},
+{
+"name": "Centro studi americanistici Circolo Amerindiano",
+"kind": "library",
+"lat": 43.113276,
+"lng": 12.385859
+},
+{
+"name": "Cocote",
+"kind": "restaurant",
+"lat": 43.113324,
+"lng": 12.388426
+},
+{
+"name": "Teatro Morlacchi",
+"kind": "theatre",
+"lat": 43.113457,
+"lng": 12.386793
+},
+{
+"name": "Deba Sushi",
+"kind": "restaurant",
+"lat": 43.113475,
+"lng": 12.390505
+},
+{
+"name": "Municipio di Perugia - Sede secondaria",
+"kind": "townhall",
+"lat": 43.113498,
+"lng": 12.386204
+},
+{
+"name": "Biblioteca Augusta",
+"kind": "library",
+"lat": 43.113627,
+"lng": 12.390514
+},
+{
+"name": "Pizzeria Porta Pesa",
+"kind": "restaurant",
+"lat": 43.113633,
+"lng": 12.394025
+},
+{
+"name": "Porta Pesa",
+"kind": "bar",
+"lat": 43.113649,
+"lng": 12.393583
+},
+{
+"name": "Tobacco shop",
+"kind": "tobacco",
+"lat": 43.113682,
+"lng": 12.393619
+},
+{
+"name": "Oratorio di San Bernardino",
+"kind": "place_of_worship",
+"lat": 43.113684,
+"lng": 12.383122
+},
+{
+"name": "Emi",
+"kind": "supermarket",
+"lat": 43.113699,
+"lng": 12.394322
+},
+{
+"name": "Gipsoteca",
+"kind": "museum",
+"lat": 43.113709,
+"lng": 12.386225
+},
+{
+"name": "Locanda del Morlacchi",
+"kind": "restaurant",
+"lat": 43.113745,
+"lng": 12.386885
+},
+{
+"name": "Biblioteca di studi umanistici (Emeroteca)",
+"kind": "library",
+"lat": 43.11375,
+"lng": 12.386171
+},
+{
+"name": "Biblioteca dell'Accademia di Belle Arti Pietro Vannucci",
+"kind": "library",
+"lat": 43.113753,
+"lng": 12.382225
+},
+{
+"name": "Shake",
+"kind": "bar",
+"lat": 43.113754,
+"lng": 12.389238
+},
+{
+"name": "La Nuit",
+"kind": "restaurant",
+"lat": 43.11377,
+"lng": 12.37864
+},
+{
+"name": "Santa Maria Nuova",
+"kind": "place_of_worship",
+"lat": 43.113838,
+"lng": 12.392968
+},
+{
+"name": "Uno+Uno",
+"kind": "bar",
+"lat": 43.113839,
+"lng": 12.393429
+},
+{
+"name": "Edicola",
+"kind": "newsagent",
+"lat": 43.113844,
+"lng": 12.393919
+},
+{
+"name": "Osteria Arco Etrusco",
+"kind": "restaurant",
+"lat": 43.113865,
+"lng": 12.389247
+},
+{
+"name": "Museo dell'Academia Perugia",
+"kind": "museum",
+"lat": 43.113873,
+"lng": 12.381968
+},
+{
+"name": "Arco dei Tei",
+"kind": "city_gate",
+"lat": 43.113927,
+"lng": 12.39338
+},
+{
+"name": "La Lumera",
+"kind": "restaurant",
+"lat": 43.113996,
+"lng": 12.393489
+},
+{
+"name": "Ristorante Pizzeria Sualto",
+"kind": "restaurant",
+"lat": 43.114015,
+"lng": 12.357705
+},
+{
+"name": "Lupi",
+"kind": "cafe",
+"lat": 43.114072,
+"lng": 12.394481
+},
+{
+"name": "Tabaccheria Etrusco",
+"kind": "tobacco",
+"lat": 43.114163,
+"lng": 12.389369
+},
+{
+"name": "Chiesa dei santi Rocco e Sebastiano",
+"kind": "place_of_worship",
+"lat": 43.114272,
+"lng": 12.38733
+},
+{
+"name": "Ristorante \"Dal Picciotto\" Sicilian food",
+"kind": "restaurant",
+"lat": 43.114293,
+"lng": 12.394272
+},
+{
+"name": "Pinturicchio - Cafe+kitchen",
+"kind": "cafe",
+"lat": 43.114315,
+"lng": 12.391081
+},
+{
+"name": "Ufficio postale Perugia 13",
+"kind": "post_office",
+"lat": 43.11434,
+"lng": 12.363866
+},
+{
+"name": "La bottega di Ali Akbar",
+"kind": "fast_food",
+"lat": 43.114397,
+"lng": 12.390697
+},
+{
+"name": "Alimentari di Ali Akbar",
+"kind": "convenience",
+"lat": 43.114419,
+"lng": 12.390644
+},
+{
+"name": "Centro della Scienza P.O.S.T.",
+"kind": "museum",
+"lat": 43.11442,
+"lng": 12.392284
+},
+{
+"name": "Arco Etrusco",
+"kind": "city_gate",
+"lat": 43.114432,
+"lng": 12.389672
+},
+{
+"name": "Ristoro Le Terme Di San Galigano",
+"kind": "restaurant",
+"lat": 43.114447,
+"lng": 12.375873
+},
+{
+"name": "San Fortunato",
+"kind": "place_of_worship",
+"lat": 43.114492,
+"lng": 12.390264
+},
+{
+"name": "Cioccolateria Gelateria Augusta Perusia",
+"kind": "ice_cream",
+"lat": 43.114552,
+"lng": 12.390463
+},
+{
+"name": "Hotel San Sebastiano",
+"kind": "hotel",
+"lat": 43.114554,
+"lng": 12.387595
+},
+{
+"name": "Chiesa di Santa Maria di Monteluce",
+"kind": "place_of_worship",
+"lat": 43.11456,
+"lng": 12.400061
+},
+{
+"name": "Bar Tabaccheria",
+"kind": "cafe",
+"lat": 43.114611,
+"lng": 12.376222
+},
+{
+"name": "Monte dei Paschi di Siena",
+"kind": "bank",
+"lat": 43.114635,
+"lng": 12.399024
+},
+{
+"name": "Piramide",
+"kind": "monument",
+"lat": 43.114693,
+"lng": 12.353821
+},
+{
+"name": "Pizza Italia",
+"kind": "restaurant",
+"lat": 43.114694,
+"lng": 12.388527
+},
+{
+"name": "La Scolastica",
+"kind": "books",
+"lat": 43.114709,
+"lng": 12.375718
+},
+{
+"name": "Happy",
+"kind": "bar",
+"lat": 43.114739,
+"lng": 12.38824
+},
+{
+"name": "Royal",
+"kind": "bar",
+"lat": 43.114745,
+"lng": 12.398909
+},
+{
+"name": "Fonte dei Tintori",
+"kind": "lavoir",
+"lat": 43.114769,
+"lng": 12.381955
+},
+{
+"name": "Berlin",
+"kind": "restaurant",
+"lat": 43.114823,
+"lng": 12.387541
+},
+{
+"name": "Mensa Università per Stranieri",
+"kind": "restaurant",
+"lat": 43.114833,
+"lng": 12.38908
+},
+{
+"name": "Farmacia Dottor Falini",
+"kind": "pharmacy",
+"lat": 43.114842,
+"lng": 12.364222
+},
+{
+"name": "Bar Loris",
+"kind": "bar",
+"lat": 43.114846,
+"lng": 12.399291
+},
+{
+"name": "Biblioteca e Centro per l'orientamento bibliografico e per la documentazione",
+"kind": "library",
+"lat": 43.114914,
+"lng": 12.389533
+},
+{
+"name": "Tokyo",
+"kind": "restaurant",
+"lat": 43.114964,
+"lng": 12.388829
+},
+{
+"name": "Margiacchi lib. universitaria",
+"kind": "books",
+"lat": 43.114983,
+"lng": 12.38791
+},
+{
+"name": "Ufficio postale Perugia 3",
+"kind": "post_office",
+"lat": 43.114985,
+"lng": 12.398762
+},
+{
+"name": "Taverna del Grifo",
+"kind": "restaurant",
+"lat": 43.114988,
+"lng": 12.389057
+},
+{
+"name": "Mosaico di Orfeo e le fiere",
+"kind": "attraction",
+"lat": 43.115017,
+"lng": 12.387544
+},
+{
+"name": "Vitali Lodovico",
+"kind": "pharmacy",
+"lat": 43.115023,
+"lng": 12.390003
+},
+{
+"name": "Porta Conca",
+"kind": "city_gate",
+"lat": 43.115037,
+"lng": 12.383569
+},
+{
+"name": "Bar Fortebraccio",
+"kind": "bar",
+"lat": 43.115041,
+"lng": 12.389853
+},
+{
+"name": "Grimana Libri",
+"kind": "books",
+"lat": 43.115054,
+"lng": 12.389928
+},
+{
+"name": "Chiesa di Sant'Antonio Abate",
+"kind": "place_of_worship",
+"lat": 43.11506,
+"lng": 12.395572
+},
+{
+"name": "Fortebraccio",
+"kind": "cafe",
+"lat": 43.115082,
+"lng": 12.389702
+},
+{
+"name": "Farmacia Comunale Afas 6",
+"kind": "pharmacy",
+"lat": 43.115082,
+"lng": 12.399816
+},
+{
+"name": "Shanghai",
+"kind": "restaurant",
+"lat": 43.115137,
+"lng": 12.389805
+},
+{
+"name": "110 Cafè",
+"kind": "cafe",
+"lat": 43.115219,
+"lng": 12.385187
+},
+{
+"name": "EMI Supermercato",
+"kind": "supermarket",
+"lat": 43.115222,
+"lng": 12.375783
+},
+{
+"name": "Antica Perugia",
+"kind": "cafe",
+"lat": 43.115257,
+"lng": 12.399862
+},
+{
+"name": "Ristorante Monteluce",
+"kind": "restaurant",
+"lat": 43.115266,
+"lng": 12.399562
+},
+{
+"name": "Biblioteca di scienze chimiche, farmaceutiche e biologiche",
+"kind": "library",
+"lat": 43.115286,
+"lng": 12.386589
+},
+{
+"name": "Osteria Fiorucci",
+"kind": "restaurant",
+"lat": 43.115304,
+"lng": 12.388753
+},
+{
+"name": "Dal Mì Cocco",
+"kind": "restaurant",
+"lat": 43.115334,
+"lng": 12.389563
+},
+{
+"name": "Mensa Universitaria",
+"kind": "restaurant",
+"lat": 43.115354,
+"lng": 12.384826
+},
+{
+"name": "Rosso Vino Pg",
+"kind": "restaurant",
+"lat": 43.115413,
+"lng": 12.389538
+},
+{
+"name": "Wang",
+"kind": "restaurant",
+"lat": 43.115436,
+"lng": 12.389657
+},
+{
+"name": "Rubbagalline",
+"kind": "restaurant",
+"lat": 43.115478,
+"lng": 12.386985
+},
+{
+"name": "Biblioteca di scienze economiche, statistiche e aziendali",
+"kind": "library",
+"lat": 43.115588,
+"lng": 12.386024
+},
+{
+"name": "Conad",
+"kind": "supermarket",
+"lat": 43.115612,
+"lng": 12.362943
+},
+{
+"name": "Delicatessen",
+"kind": "cafe",
+"lat": 43.115688,
+"lng": 12.388138
+},
+{
+"name": "Porta Sant'Antonio",
+"kind": "city_gate",
+"lat": 43.115691,
+"lng": 12.395741
+},
+{
+"name": "Biblioteca giuridica unificata. Università degli studi di Perugia",
+"kind": "library",
+"lat": 43.115705,
+"lng": 12.383825
+},
+{
+"name": "Brizi",
+"kind": "restaurant",
+"lat": 43.115736,
+"lng": 12.388062
+},
+{
+"name": "Garibaldino",
+"kind": "restaurant",
+"lat": 43.115803,
+"lng": 12.389477
+},
+{
+"name": "Porta del Bulagaio",
+"kind": "city_gate",
+"lat": 43.11586,
+"lng": 12.390685
+},
+{
+"name": "La Paninoteca",
+"kind": "bar",
+"lat": 43.115924,
+"lng": 12.389436
+},
+{
+"name": "Il Giardino",
+"kind": "restaurant",
+"lat": 43.115931,
+"lng": 12.39031
+},
+{
+"name": "Biblioteca di scienze matematiche, fisiche e geologiche",
+"kind": "library",
+"lat": 43.115943,
+"lng": 12.385051
+},
+{
+"name": "Chiesa di Sant'Agostino",
+"kind": "place_of_worship",
+"lat": 43.116153,
+"lng": 12.390104
+},
+{
+"name": "Il Caffè dell'Università",
+"kind": "cafe",
+"lat": 43.116187,
+"lng": 12.387672
+},
+{
+"name": "UniCredit Bank",
+"kind": "bank",
+"lat": 43.116267,
+"lng": 12.38757
+},
+{
+"name": "La Casetta",
+"kind": "restaurant",
+"lat": 43.116451,
+"lng": 12.383317
+},
+{
+"name": "Biblioteca di Studi Storici, Politici e Sociali",
+"kind": "library",
+"lat": 43.116694,
+"lng": 12.385559
+},
+{
+"name": "Bar Village",
+"kind": "cafe",
+"lat": 43.116807,
+"lng": 12.385178
+},
+{
+"name": "Ufficio postale Perugia 1",
+"kind": "post_office",
+"lat": 43.116915,
+"lng": 12.384368
+},
+{
+"name": "Bar dello studente",
+"kind": "cafe",
+"lat": 43.116951,
+"lng": 12.384602
+},
+{
+"name": "Pizzicheria Elce",
+"kind": "bar",
+"lat": 43.116984,
+"lng": 12.380665
+},
+{
+"name": "L'Erba Voglio - cartolibreria",
+"kind": "books",
+"lat": 43.117042,
+"lng": 12.376803
+},
+{
+"name": "Pizzicheria Perugia",
+"kind": "restaurant",
+"lat": 43.11709,
+"lng": 12.3806
+},
+{
+"name": "Valentina",
+"kind": "restaurant",
+"lat": 43.117103,
+"lng": 12.381333
+},
+{
+"name": "Banca Popolare di Spoleto",
+"kind": "bank",
+"lat": 43.117133,
+"lng": 12.379004
+},
+{
+"name": "Coop",
+"kind": "supermarket",
+"lat": 43.117279,
+"lng": 12.380153
+},
+{
+"name": "Farmacia Elce Snc della Dott. Ssa Maria Vittoria Caldari e C",
+"kind": "pharmacy",
+"lat": 43.117301,
+"lng": 12.380404
+},
+{
+"name": "La Dolce Notte",
+"kind": "bakery",
+"lat": 43.117342,
+"lng": 12.380582
+},
+{
+"name": "Panetteria Il Forno di Elce di Fazio Salvatore",
+"kind": "bakery",
+"lat": 43.117363,
+"lng": 12.382248
+},
+{
+"name": "Anfiteatro",
+"kind": "theatre",
+"lat": 43.117403,
+"lng": 12.389869
+},
+{
+"name": "Museo Giuditta Brozzetti",
+"kind": "museum",
+"lat": 43.11742,
+"lng": 12.383757
+},
+{
+"name": "Ex Chiesa di San Francesco delle Donne",
+"kind": "place_of_worship",
+"lat": 43.117429,
+"lng": 12.383711
+},
+{
+"name": "Meta",
+"kind": "supermarket",
+"lat": 43.117659,
+"lng": 12.382092
+},
+{
+"name": "Alimentari Pieroni",
+"kind": "convenience",
+"lat": 43.117742,
+"lng": 12.364576
+},
+{
+"name": "Tabaccheria Casagrande",
+"kind": "tobacco",
+"lat": 43.118015,
+"lng": 12.399884
+},
+{
+"name": "Cerquiglini - Panetteria Pasticceria",
+"kind": "pastry",
+"lat": 43.118058,
+"lng": 12.399791
+},
+{
+"name": "Bar Residence",
+"kind": "bar",
+"lat": 43.118118,
+"lng": 12.364522
+},
+{
+"name": "Monastero di Santa Caterina",
+"kind": "place_of_worship",
+"lat": 43.11833,
+"lng": 12.386732
+},
+{
+"name": "Pizza Magic",
+"kind": "restaurant",
+"lat": 43.1185,
+"lng": 12.398933
+},
+{
+"name": "UniCredit",
+"kind": "bank",
+"lat": 43.11867,
+"lng": 12.398586
+},
+{
+"name": "Maria Regina della pace",
+"kind": "place_of_worship",
+"lat": 43.118795,
+"lng": 12.359825
+},
+{
+"name": "Biblioteca di Ingegneria",
+"kind": "library",
+"lat": 43.118798,
+"lng": 12.35616
+},
+{
+"name": "Monastero della Beata Colomba",
+"kind": "place_of_worship",
+"lat": 43.118839,
+"lng": 12.386211
+},
+{
+"name": "Porta di Sant'Angelo",
+"kind": "attraction",
+"lat": 43.119544,
+"lng": 12.384574
+},
+{
+"name": "Torre del Cassero",
+"kind": "museum",
+"lat": 43.119561,
+"lng": 12.384623
+},
+{
+"name": "Mirò circolo culturale",
+"kind": "bar",
+"lat": 43.119824,
+"lng": 12.372243
+},
+{
+"name": "Colonne tempio Dio Vulcano",
+"kind": "attraction",
+"lat": 43.119945,
+"lng": 12.385348
+},
+{
+"name": "Chiesa di San Matteo degli Armeni",
+"kind": "place_of_worship",
+"lat": 43.119985,
+"lng": 12.383497
+},
+{
+"name": "Biblioteca San Matteo degli Armeni",
+"kind": "library",
+"lat": 43.120045,
+"lng": 12.383289
+},
+{
+"name": "Chiesa di San Michele Arcangelo",
+"kind": "place_of_worship",
+"lat": 43.120077,
+"lng": 12.385298
+}
+]

@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block page %}home{% endblock %}
+{% block body %}
+<header class="greeting">
+  <p class="greet" id="greet">{{ T.good_afternoon }}</p>
+  <p class="clock"><span id="clock">--:--</span> · Perugia</p>
+</header>
+
+<section class="where card" aria-live="polite">
+  <svg class="ic ic-lg" aria-hidden="true"><use href="#i-pin"/></svg>
+  <div>
+    <p class="where-label" id="near-label">{{ T.finding }}</p>
+    <p class="where-place" id="near-place"></p>
+  </div>
+</section>
+<p class="note" id="loc-note" hidden></p>
+{% if not cfg.configured %}<p class="note note-warn">{{ T.setup_needed }}</p>{% endif %}
+
+<nav class="stack" aria-label="{{ T.app_name }}">
+  <a class="btn btn-home" href="{{ url_for('companion.route', dest_id='home') }}">
+    <svg class="ic" aria-hidden="true"><use href="#i-home"/></svg><span>{{ T.take_me_home }}</span>
+  </a>
+  <a class="btn btn-primary" href="{{ url_for('companion.choose') }}">
+    <svg class="ic" aria-hidden="true"><use href="#i-map"/></svg><span>{{ T.where_go }}</span>
+  </a>
+  <div class="grid-2">
+    <a class="btn btn-plain btn-tile" href="{{ url_for('companion.route', dest_id='centre') }}">
+      <svg class="ic" aria-hidden="true"><use href="#i-fountain"/></svg><span>{{ T.centre }}</span>
+    </a>
+    <a class="btn btn-plain btn-tile" href="{{ url_for('companion.route', dest_id='station') }}">
+      <svg class="ic" aria-hidden="true"><use href="#i-train"/></svg><span>{{ T.station }}</span>
+    </a>
+  </div>
+  <a class="btn btn-plain" href="{{ url_for('companion.translate_page') }}">
+    <svg class="ic" aria-hidden="true"><use href="#i-chat"/></svg><span>{{ T.translate }}</span>
+  </a>
+  <a class="btn btn-lost" href="{{ url_for('companion.lost') }}">
+    <svg class="ic" aria-hidden="true"><use href="#i-help"/></svg><span>{{ T.need_help }}</span>
+  </a>
+</nav>
+
+<footer class="foot">
+  <a href="{{ url_for('companion.welcome') }}"><svg class="ic ic-sm" aria-hidden="true"><use href="#i-globe"/></svg>{{ T.language }}</a>
+  <a href="{{ url_for('companion.setup') }}"><svg class="ic ic-sm" aria-hidden="true"><use href="#i-settings"/></svg>{{ T.family_setup }}</a>
+</footer>
+{% endblock %}

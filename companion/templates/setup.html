@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+{% block page %}setup{% endblock %}
+{% block title %}Family setup · {{ T.app_name }}{% endblock %}
+{% block body %}
+{% include "_topbar.html" %}
+<h1 class="h-title">Family setup / 家人设置</h1>
+<p class="note">These settings are saved on this phone only. Type an address and press <strong>Find</strong>, or stand at the place and press <strong>I am here</strong>. Always check the position on the map.<br>
+设置只保存在这部手机上。输入地址后按“查找”，或者站在那里按“我在这里”。请务必在地图上核对位置。</p>
+{% if saved %}<p class="note note-ok" role="status">Saved. / 已保存。</p>{% endif %}
+{% for e in errors %}<p class="note note-warn" role="alert">{{ e }}</p>{% endfor %}
+
+{% if link %}
+<section class="card stack" aria-labelledby="link-title">
+  <h2 class="h-sub" id="link-title">Setup link / 设置链接</h2>
+  <p class="note">Filled this in on your own phone? Send this link to his phone and open it there. It copies all settings (including the phone numbers), so only send it to him.<br>
+  如果您是在自己的手机上填写的，请把这个链接发到他的手机上并打开，所有设置（包括电话号码）都会复制过去。请只发给他本人。</p>
+  <input class="field" id="setup-link" value="{{ link }}" readonly aria-label="Setup link">
+  <button type="button" class="btn btn-plain" id="btn-share-link" data-link="{{ link }}">
+    <svg class="ic" aria-hidden="true"><use href="#i-share"/></svg><span>Send link / 发送链接</span>
+  </button>
+</section>
+{% endif %}
+
+<form method="post" class="setup-form" novalidate>
+
+  <fieldset data-geo>
+    <legend>Hotel / 酒店</legend>
+    <label>Name / 名称<input class="field" name="home_name" value="{{ c.home.name }}" required></label>
+    <label>Address (Italian) / 地址<input class="field" name="home_address" value="{{ c.home.address }}" data-geo-q required></label>
+    <div class="grid-2">
+      <button type="button" class="btn btn-plain btn-find" data-geo-find><svg class="ic" aria-hidden="true"><use href="#i-map"/></svg><span>Find / 查找</span></button>
+      <button type="button" class="btn btn-plain btn-find" data-geo-here><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg><span>I am here / 我在这里</span></button>
+    </div>
+    <div class="geo-results" data-geo-results role="status"></div>
+    <div class="grid-2">
+      <label>Latitude / 纬度<input class="field" name="home_lat" value="{{ c.home.lat }}" inputmode="decimal" data-geo-lat required></label>
+      <label>Longitude / 经度<input class="field" name="home_lng" value="{{ c.home.lng }}" inputmode="decimal" data-geo-lng required></label>
+    </div>
+    <a class="geo-map" data-geo-map href="#" target="_blank" rel="noopener">Check the position on a map / 在地图上核对位置</a>
+    <label>What to look for / 标志<input class="field" name="home_hint" value="{{ c.home.hint }}" placeholder="Green door next to the bakery"></label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Family contact / 家人联系方式</legend>
+    <label>Name / 称呼<input class="field" name="contact_name" value="{{ c.contact.name }}"></label>
+    <label>Phone (with country code) / 电话<input class="field" name="contact_phone" value="{{ c.contact.phone }}" inputmode="tel" placeholder="+86 138 0000 0000"></label>
+    <label>Taxi phone / 出租车电话<input class="field" name="taxi_phone" value="{{ c.taxi_phone }}" inputmode="tel"></label>
+    <p class="note">Radio Taxi Perugia, 24 hours: +39 075 5004888</p>
+  </fieldset>
+
+  {% for d in c.destinations if not d.node %}
+  <fieldset data-geo>
+    <legend>{{ d.name.en }} / {{ d.name.zh }}</legend>
+    <div class="grid-2">
+      <label>Name (English)<input class="field" name="d_{{ d.id }}_en" value="{{ d.name.en }}"></label>
+      <label>名称（中文）<input class="field" name="d_{{ d.id }}_zh" value="{{ d.name.zh }}"></label>
+    </div>
+    <label>Address (Italian) / 地址<input class="field" name="d_{{ d.id }}_address" value="{{ d.address }}" data-geo-q></label>
+    <div class="grid-2">
+      <button type="button" class="btn btn-plain btn-find" data-geo-find><svg class="ic" aria-hidden="true"><use href="#i-map"/></svg><span>Find / 查找</span></button>
+      <button type="button" class="btn btn-plain btn-find" data-geo-here><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg><span>I am here / 我在这里</span></button>
+    </div>
+    <div class="geo-results" data-geo-results role="status"></div>
+    <div class="grid-2">
+      <label>Latitude<input class="field" name="d_{{ d.id }}_lat" value="{{ d.lat }}" inputmode="decimal" data-geo-lat required></label>
+      <label>Longitude<input class="field" name="d_{{ d.id }}_lng" value="{{ d.lng }}" inputmode="decimal" data-geo-lng required></label>
+    </div>
+    <a class="geo-map" data-geo-map href="#" target="_blank" rel="noopener">Check the position on a map / 在地图上核对位置</a>
+    <label>What to look for / 标志<input class="field" name="d_{{ d.id }}_hint" value="{{ d.hint }}"></label>
+  </fieldset>
+  {% endfor %}
+
+  <fieldset>
+    <legend>Minimetrò</legend>
+    <p class="note">Mon–Fri 07:00–21:05 · Sat 07:00–01:05 (until 26 Dec 2026) · Sun 09:00–20:45. Check minimetrospa.it/orari for closures (usually two weeks in August) and add those days here.</p>
+    <label>Closed days (YYYY-MM-DD, comma separated) / 停运日期
+      <textarea class="field" name="closed_dates" rows="2">{{ c.metro_hours.closed_dates|join(', ') }}</textarea></label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Recommended route / 推荐路线</legend>
+    <p class="note">Which route the big green START button uses. The other routes are still shown. / 绿色“出发”按钮默认使用的路线，其他路线仍然会显示。</p>
+    <label class="radio"><input type="radio" name="default_mode" value="easiest" {% if c.default_mode != 'safest' %}checked{% endif %}>
+      <span><strong>Easiest / 最轻松</strong> — fewest steps and hills, uses escalators, lifts and the Minimetrò. / 台阶和坡最少。</span></label>
+    <label class="radio"><input type="radio" name="default_mode" value="safest" {% if c.default_mode == 'safest' %}checked{% endif %}>
+      <span><strong>Safest / 最安全</strong> — main streets, crossings with traffic lights or zebra stripes, no back alleys or car parks. / 走主要街道和有红绿灯或斑马线的路口。</span></label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Test mode / 测试模式</legend>
+    <label class="check"><input type="checkbox" name="pretend" {% if c.pretend_location %}checked{% endif %}>
+      Pretend to be at the position below, to try the app at home. <strong>Leave this off for real use.</strong> / 在家试用时假装在下面的位置。<strong>实际使用时请关闭。</strong></label>
+    <div class="grid-2">
+      <label>Latitude<input class="field" name="fb_lat" value="{{ c.fallback_location.lat }}" inputmode="decimal" required></label>
+      <label>Longitude<input class="field" name="fb_lng" value="{{ c.fallback_location.lng }}" inputmode="decimal" required></label>
+    </div>
+  </fieldset>
+
+  <button class="btn btn-primary" type="submit"><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>Save / 保存</span></button>
+</form>
+{% endblock %}

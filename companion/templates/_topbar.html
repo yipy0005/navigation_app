@@ -1,0 +1,10 @@
+<div class="topbar">
+  <a class="chip" href="{{ back_url|default(url_for('companion.index')) }}">
+    <svg class="ic" aria-hidden="true"><use href="#i-back"/></svg><span>{{ T.back }}</span>
+  </a>
+  {% if show_voice %}
+  <button type="button" class="chip" id="voice-toggle" aria-pressed="true">
+    <svg class="ic" aria-hidden="true"><use href="#i-volume"/></svg><span>{{ T.voice_on }}</span>
+  </button>
+  {% endif %}
+</div>

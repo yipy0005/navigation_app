@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block page %}route{% endblock %}
+{% block body %}
+{% include "_topbar.html" %}
+{% set qs = dest.qs|default('') %}
+<div id="route-root" data-dest="{{ dest.id }}" data-qs="{{ qs }}"
+     data-nav-url="{{ url_for('companion.navigate', dest_id=dest.id) }}">
+  <h1 class="h-title">
+    <svg class="ic ic-lg" aria-hidden="true"><use href="#i-{{ dest.icon }}"/></svg>
+    <span>{{ T.home_dest if dest.is_home else (dest.name[lang] or dest.name.en) }}</span>
+  </h1>
+  <p class="lead" id="route-status" aria-live="polite">{{ T.loading_route }}</p>
+  <p class="note" id="route-note" hidden></p>
+  <button type="button" class="btn btn-primary" id="btn-retry" hidden>
+    <svg class="ic" aria-hidden="true"><use href="#i-repeat"/></svg><span>{{ T.try_again }}</span>
+  </button>
+
+  <div id="route-options" class="stack" hidden>
+    {% for m, icon in [('easiest', 'check'), ('safest', 'shield'), ('fastest', 'straight')] %}
+    <a class="option" data-mode="{{ m }}" href="#" hidden>
+      <span class="option-head">
+        <span class="badge" hidden>{{ T.recommended }}</span>
+        <span class="option-name"><svg class="ic" aria-hidden="true"><use href="#i-{{ icon }}"/></svg>{{ T[m] }}</span>
+      </span>
+      <span class="option-time"><strong data-f="minutes"></strong> {{ T.min }}</span>
+      <span class="option-facts" data-f="facts"></span>
+      <span class="option-facts option-safety" data-f="safety"></span>
+      <span class="option-also" data-f="also" hidden></span>
+      <span class="option-cta"><svg class="ic" aria-hidden="true"><use href="#i-check"/></svg><span>{{ T['start_' ~ m] }}</span></span>
+    </a>
+    {% endfor %}
+  </div>
+
+  <div id="route-taxi" class="stack" hidden>
+    <a class="btn btn-home" href="tel:{{ cfg.taxi_phone|replace(' ', '') }}">
+      <svg class="ic" aria-hidden="true"><use href="#i-taxi"/></svg><span>{{ T.call_taxi }}</span>
+    </a>
+    <a class="btn btn-plain" href="{{ url_for('companion.show', dest=dest.id, purpose='taxi') }}{{ '&' ~ qs if qs }}">
+      <svg class="ic" aria-hidden="true"><use href="#i-card"/></svg><span>{{ T.for_taxi }}</span>
+    </a>
+  </div>
+</div>
+{% endblock %}

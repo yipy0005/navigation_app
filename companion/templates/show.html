@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block page %}show{% endblock %}
+{% block body %}
+{% include "_topbar.html" %}
+<p class="note">{{ T.hold_up }}</p>
+
+<article class="show-card" lang="it" id="show-card">
+  {% if purpose == 'taxi' %}
+  <p class="show-line">Buongiorno.</p>
+  <p class="show-line"><strong>Per favore, mi porti a questo indirizzo:</strong></p>
+  {% else %}
+  <p class="show-line"><strong>Sono un turista e non parlo italiano.</strong></p>
+  {% if dest.is_home %}
+  <p class="show-line">Sto cercando di tornare al mio hotel.</p>
+  <p class="show-line">Questo è il mio indirizzo:</p>
+  {% else %}
+  <p class="show-line">Sto cercando questo posto:</p>
+  {% endif %}
+  {% endif %}
+  <div class="show-address">
+    <p class="show-name">{{ dest.name.en }}</p>
+    <p class="show-addr">{{ dest.address }}</p>
+  </div>
+  {% if purpose != 'taxi' %}
+  <p class="show-line">Può aiutarmi, per favore? Grazie.</p>
+  {% else %}
+  <p class="show-line">Grazie.</p>
+  {% endif %}
+</article>
+
+<button type="button" class="btn btn-home" id="btn-play-card">
+  <svg class="ic" aria-hidden="true"><use href="#i-volume"/></svg><span>{{ T.play_italian }}</span>
+</button>
+
+{% set pad = 0.004 %}
+<iframe class="mini-map" title="{{ dest.address }}" referrerpolicy="no-referrer"
+  src="https://www.openstreetmap.org/export/embed.html?bbox={{ dest.lng - pad }},{{ dest.lat - pad }},{{ dest.lng + pad }},{{ dest.lat + pad }}&amp;layer=mapnik&amp;marker={{ dest.lat }},{{ dest.lng }}"></iframe>
+
+{% if purpose == 'help' %}
+<a class="btn btn-plain" href="tel:{{ cfg.taxi_phone|replace(' ', '') }}">
+  <svg class="ic" aria-hidden="true"><use href="#i-taxi"/></svg><span>{{ T.call_taxi }}</span>
+</a>
+{% endif %}
+{% endblock %}

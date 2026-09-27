@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block page %}lost{% endblock %}
+{% block body %}
+{% include "_topbar.html" %}
+<section class="safe card card-calm" aria-live="polite">
+  <h1 class="safe-title">{{ T.safe_title }}</h1>
+  <p class="safe-where" id="safe-where">{{ T.finding }}</p>
+  <p class="safe-home" id="safe-home"></p>
+  <p class="safe-calm">{{ T.no_hurry }}</p>
+</section>
+
+<nav class="stack">
+  <a class="btn btn-home" href="{{ url_for('companion.navigate', dest_id='home') }}">
+    <svg class="ic" aria-hidden="true"><use href="#i-home"/></svg><span>{{ T.take_me_home }}</span>
+  </a>
+  <a class="btn btn-plain" href="tel:{{ cfg.taxi_phone|replace(' ', '') }}">
+    <svg class="ic" aria-hidden="true"><use href="#i-taxi"/></svg><span>{{ T.call_taxi }}</span>
+  </a>
+  <button type="button" class="btn btn-plain" id="btn-share">
+    <svg class="ic" aria-hidden="true"><use href="#i-share"/></svg><span>{{ T.share_location }}</span>
+  </button>
+  {% if cfg.contact.phone %}
+  <a class="btn btn-plain" href="tel:{{ cfg.contact.phone|replace(' ', '') }}">
+    <svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg><span>{{ T.call_contact|replace('{name}', cfg.contact.name) }}</span>
+  </a>
+  {% else %}
+  <p class="note">{{ T.no_contact }}</p>
+  {% endif %}
+  <a class="btn btn-plain" href="{{ url_for('companion.show', dest='home', purpose='help') }}">
+    <svg class="ic" aria-hidden="true"><use href="#i-card"/></svg><span>{{ T.show_card }}</span>
+  </a>
+  <a class="btn btn-danger" href="tel:{{ cfg.emergency_phone }}">
+    <svg class="ic" aria-hidden="true"><use href="#i-alert"/></svg><span>{{ T.emergency }}</span>
+  </a>
+</nav>
+<p class="note" id="share-note" role="status" hidden></p>
+{% endblock %}
