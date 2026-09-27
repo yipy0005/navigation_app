@@ -1,0 +1,7 @@
+.pixi/
+__pycache__/
+*.pyc
+instance/
+# routing server data (rebuilt with `pixi run -e data prepare-map` + docker compose)
+valhalla/custom_files/
+valhalla/centro.osm.pbf

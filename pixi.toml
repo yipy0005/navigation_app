@@ -1,0 +1,41 @@
+[workspace]
+channels = ["conda-forge"]
+name = "perugia-companion"
+description = "A calm, age-friendly travel companion for walking around Perugia"
+platforms = ["osx-arm64", "osx-64", "linux-64"]
+version = "0.2.0"
+
+[tasks]
+# Local development (http://127.0.0.1:5000)
+dev = { cmd = "flask --app companion run --debug --port 5000", env = { FLASK_SKIP_DOTENV = "1" } }
+# Reachable from a phone on the same Wi-Fi. HTTPS is needed for GPS + microphone
+# on phones, so this uses a self-signed certificate (accept the warning once).
+phone = { cmd = "flask --app companion run --host 0.0.0.0 --port 5443 --cert adhoc", env = { FLASK_SKIP_DOTENV = "1" } }
+# Production server. Binds to $PORT when the host sets it (Render, Fly, Railway…).
+serve = { cmd = "gunicorn --workers 2 --threads 8 --timeout 60 --access-logfile - 'companion:create_app()'", env = { COMPANION_ENV = "production" } }
+# Quick self-check of pages, settings and routing (uses the live map service)
+check = "python -m companion.selfcheck"
+# Refresh the bundled landmark list from OpenStreetMap
+fetch-landmarks = "python -m companion.fetch_landmarks"
+
+[dependencies]
+python = "3.12.*"
+flask = ">=3.1.3,<3.2"
+requests = ">=2.34.2,<2.35"
+cryptography = ">=50.0.1,<51"
+gunicorn = ">=26.2.0,<27"
+python-tzdata = ">=2026.4,<2027"
+
+[feature.data.dependencies]
+pyshp = ">=3.1.6,<4"
+pyproj = ">=3.8.0,<4"
+osmium-tool = ">=1.19.1,<2"
+
+[environments]
+data = { features = ["data"], solve-group = "default" }
+
+[feature.data.tasks]
+# Cut the Perugia area out of the OpenStreetMap extract for our own routing server
+prepare-map = "mkdir -p valhalla/custom_files && curl -sSfL -o valhalla/centro.osm.pbf https://download.geofabrik.de/europe/italy/centro-latest.osm.pbf && osmium extract --bbox 12.20,42.95,12.62,43.25 --strategy smart valhalla/centro.osm.pbf -o valhalla/custom_files/perugia.osm.pbf --overwrite && rm valhalla/centro.osm.pbf"
+# Rebuild the bundled official street-number list (Comune di Perugia open data)
+fetch-addresses = "python -m companion.fetch_addresses"
