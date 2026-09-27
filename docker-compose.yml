@@ -1,0 +1,36 @@
+# Our own routing server, so we don't depend on (or get blocked by) the free
+# public one, which allows only 1 request per second.
+#
+#   pixi run -e data prepare-map      # once: cut the Perugia area out of OpenStreetMap
+#   docker compose up -d valhalla     # builds the routing tiles on first start (a few minutes)
+#   COMPANION_VALHALLA_URL=http://127.0.0.1:8002 pixi run serve
+services:
+  valhalla:
+    image: ghcr.io/nilsnolde/docker-valhalla/valhalla:3.5.1
+    ports:
+      - "127.0.0.1:8002:8002"
+    volumes:
+      - ./valhalla/custom_files:/custom_files
+    environment:
+      - use_tiles_ignore_pbf=True
+      - force_rebuild=False
+      - build_elevation=True      # hills, for "Easiest"
+      - build_admins=True         # Italian access rules
+      - build_time_zones=False
+      - serve_tiles=True
+      - server_threads=4
+    restart: unless-stopped
+
+  # The app itself, for a server of your own (VPS):  SECRET_KEY=... docker compose --profile app up -d
+  app:
+    profiles: ["app"]
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"   # put an HTTPS proxy (Caddy, nginx) or a tunnel in front
+    environment:
+      - COMPANION_VALHALLA_URL=http://valhalla:8002
+      - SECRET_KEY=${SECRET_KEY:-}
+      - COMPANION_CONTACT_EMAIL=${COMPANION_CONTACT_EMAIL:-}
+    depends_on:
+      - valhalla
+    restart: unless-stopped

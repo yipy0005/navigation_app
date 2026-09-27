@@ -1,0 +1,15 @@
+# Render Blueprint: New > Blueprint > pick this repository.
+services:
+  - type: web
+    name: perugia-companion
+    runtime: docker
+    # "free" sleeps after 15 min idle (first open then takes ~1 min).
+    # "starter" stays awake; recommended while he is travelling.
+    plan: starter
+    region: frankfurt
+    healthCheckPath: /healthz
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true   # generated once and kept; do not change it later
+      - key: COMPANION_CONTACT_EMAIL
+        sync: false           # your email, sent to OpenStreetMap services as required by their policy
